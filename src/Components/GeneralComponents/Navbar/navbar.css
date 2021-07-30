@@ -1,0 +1,64 @@
+.m-nav {
+
+}
+.m-nav-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+.m-nav-logo {
+    width: 40px;
+}
+.m-nav-list {
+    display: flex;
+    font-size: 14.5px;
+    align-items: center;
+}
+.m-nav-link {
+    margin-right: 2.5rem;
+}
+.m-nav-btn {
+    background: #33869D;
+    color: #fff;
+    border: 1px solid #33869D;
+    border-radius: 6px;
+    padding: 5px 2rem;
+    height: 42px;
+    font-family: 'Avenir Next';
+    font-weight: 400;
+    width: 135px;
+    font-size: 14px;
+}
+.m-nav-link-grey {
+    color: #8A94A6;
+    font-weight: 400;
+}
+.m-nav-link-pry {
+    color: #33869D;
+    font-weight: 500;
+}
+.m-nav-link-active {
+    color: #33869D;
+    font-weight: 500;
+    position: relative;
+}
+.m-nav-link-active::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #33869D;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    margin-top: 10px;
+    left: calc(50% - 2.5px);
+}
+.m-nav-dvd {
+    width: 1px;
+    height: 32px;
+    background: #C1C7D0;
+    margin-right: 3rem;
+}
