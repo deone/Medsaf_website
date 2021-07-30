@@ -88,6 +88,11 @@
   font-display: swap;
 }
 
+* {
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
 html body {
   margin: 0;
   color: #8A94A6;

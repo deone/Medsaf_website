@@ -30,7 +30,8 @@ import facebook from "../../../../assets/icons/facebookBlue.svg";
 import twitter from "../../../../assets/icons/twitterBlue.svg";
 import instagram from "../../../../assets/icons/instagramBlue.svg";
 import youtube from "../../../../assets/icons/youtubeBlue.svg";
-
+import ellipse from "../../../../assets/icons/ellipse.svg";
+import Footer from "../../../GeneralComponents/Footer/footer";
 
 const Home = () => {
   return (
@@ -341,6 +342,10 @@ const Home = () => {
               className="m-landing-section7-sec-img1"
               src={logoTransparent}
             />
+            <img
+              className="m-landing-section7-sec-img2"
+              src={ellipse}
+            />
           </div>
         </div>
         <div className="m-landing-section8 appContainer">
@@ -417,6 +422,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
