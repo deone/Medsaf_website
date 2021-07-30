@@ -20,6 +20,12 @@ import caretRight from "../../../../assets/icons/doubleCaretRightWhite.svg";
 import delivery from "../../../../assets/deliveryImg.png";
 import whyMedsaf from "../../../../assets/whyMedsaf.png";
 import video from "../../../../assets/videoPlaceholder.png";
+import blog from "../../../../assets/blog.png";
+import cartGreen from "../../../../assets/icons/cartGreen.svg";
+import logoTransparent from "../../../../assets/icons/medsafLogoTransparent.svg";
+import client1 from "../../../../assets/client1.png";
+import client2 from "../../../../assets/client2.png";
+
 
 const Home = () => {
   return (
@@ -203,6 +209,107 @@ const Home = () => {
                 <div className="m-landing-section5-item">
                     <h6 className="m-landing-section5-item-ttl">Customer<span> Testimonials</span></h6>
                     <img className="m-landing-section5-item-vid" src={video} alt="" />
+                </div>
+            </div>
+        </div>
+        <div className="m-landing-section6 appContainer">
+            <div className="m-landing-section6-sec">
+            <h4 className="m-landing-section2-ttl">
+                We are on the <span> NEWS</span>
+            </h4>
+            <div className="m-landing-section6-grid">
+                <div className="m-landing-section6-grid-1">
+                    <div className="m-landing-section6-grid-item">
+                        <img className="m-landing-section6-grid-item-img" src={blog} />
+                        <div >
+                            <h6 className="m-landing-section6-grid-item-ttl">
+                                Best quality medication in the Biz
+                            </h6>
+                            <a className="m-landing-section6-grid-item-link" href="">forbes.com/medsaf</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="m-landing-section6-grid-2">
+                <div className="m-landing-section6-grid-item">
+                        <img className="m-landing-section6-grid-item-img" src={blog} />
+                        <div >
+                            <h6 className="m-landing-section6-grid-item-ttl">
+                                Best quality medication in the Biz
+                            </h6>
+                            <a className="m-landing-section6-grid-item-link" href="">forbes.com/medsaf</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="m-landing-section6-grid-3">
+                <div className="m-landing-section6-grid-item">
+                        <img className="m-landing-section6-grid-item-img" src={blog} />
+                        <div >
+                            <h6 className="m-landing-section6-grid-item-ttl">
+                                Best quality medication in the Biz
+                            </h6>
+                            <a className="m-landing-section6-grid-item-link" href="">forbes.com/medsaf</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="m-landing-section6-grid-4">
+                <div className="m-landing-section6-grid-item">
+                        <img className="m-landing-section6-grid-item-img" src={blog} />
+                        <div >
+                            <h6 className="m-landing-section6-grid-item-ttl">
+                                Best quality medication in the Biz
+                            </h6>
+                            <a className="m-landing-section6-grid-item-link" href="">forbes.com/medsaf</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div className="m-landing-section7 appContainer">
+            <div className="m-landing-section7-sec">
+                <h6 className="m-landing-section7-sec-ttl">Your one stop shop for the highest quality medications and consumables</h6>
+                <button className="m-landing-hero-btn m-landing-section7-btn">
+                    {" "}
+                    <img src={cartGreen} alt="shopping cart" />
+                    Shop now
+                </button>
+                <img className="m-landing-section7-sec-img1" src={logoTransparent} />
+            </div>
+        </div>
+        <div className="m-landing-section8 appContainer">
+            <div className="m-landing-section2-ttl-shadow">Client reviews</div>
+            <h4 className="m-landing-section2-ttl">
+            Client <span> reviews</span>
+            </h4>
+            <p className="m-landing-section2-txt">
+            We keep a track record for Quality service, few reviews we have collated from satisfied clients.
+          </p>
+            <div className="m-landing-section8-itemsec">
+                <div  className="m-landing-section8-item">
+                    <p className="m-landing-section8-item-star">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                    <div className="m-landing-section8-item-txtsec">
+                        <p className="m-landing-section8-item-sign">"</p>
+                    <p className="m-landing-section8-item-txt">MEDSAF has a very robust supply chain unit, Now we are not bothered to check the source of these suppliers or who’s the manufacturer, is it genuine or not, is it original or fake, what is the quality assurance system, where the products are stored. All of these issues we are not concerned now, because MEDSAF takes care of them</p>
+                    <p className="m-landing-section8-item-sign m-landing-section8-item-sign-2">"</p>
+
+                    </div>
+                    
+                    <p className="m-landing-section8-item-name">Chief Anil Grover </p>
+                    <p className="m-landing-section8-item-company">Medical Director - Grover Medical Center</p>
+                    <img className="m-landing-section8-item-clientImg" src={client1} alt="" />
+                </div>
+                <div  className="m-landing-section8-item">
+                    <p className="m-landing-section8-item-star">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                    <div className="m-landing-section8-item-txtsec">
+                        <p className="m-landing-section8-item-sign">"</p>
+                    <p className="m-landing-section8-item-txt">We use to deal with so many suppliers, we had about 40 to 50 different suppliers, so that alone was an administrative burden, sending requests to different suppliers, having to process payment was and administrative nightmare. since we started working with MEDSAF, i can say that all the challenges went away. With MEDSAF the process is pretty streamlined, there was speed and quality of service</p>
+                    <p className="m-landing-section8-item-sign m-landing-section8-item-sign-2">"</p>
+
+                    </div>
+                    
+                    <p className="m-landing-section8-item-name">Dr. Ifeanyi Obiora </p>
+                    <p className="m-landing-section8-item-company">COO - Eko Hospital</p>
+                    <img className="m-landing-section8-item-clientImg" src={client2} alt="" />
                 </div>
             </div>
         </div>
