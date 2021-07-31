@@ -5,7 +5,7 @@
 }
 .m-landing-hero {
     display: flex;
-    padding-top: 3rem;
+    padding-top: 4rem;
 }
 .m-landing-hero-socials {
     position: absolute;
@@ -152,7 +152,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 5rem 0 2rem;
-    gap: 2rem;
+    column-gap: 1rem;
+    row-gap: 2.8rem;
 }
 .m-landing-section3-offer-grid-1 {
     grid-column-start: 1;
@@ -161,12 +162,15 @@
 .m-landing-section3-offers {
     background: #fff;
     width: 100%;
-    padding: 1.5rem;
+    padding: 1.5rem 1.2rem;
     text-align: left;
     border-radius: 12px;
     box-shadow: 0px 0px 5px rgba(172, 172, 172, 0.05), 0px 25px 35px rgba(0, 0, 0, 0.03);
     position: relative;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .m-landing-section3-offers-icon {
     display: flex;
@@ -200,10 +204,16 @@
     color: #323B4B;
     font-size: 1rem;
     font-weight: 700;
+    margin-bottom: 12px;
 }
 .m-landing-section3-offers-txt {
     font-size: 13px;
-    line-height: 20px;
+    line-height: 21px;
+}
+.m-landing-section3-offers-txt br {
+    display: block;
+    height: 5px;
+    content: "";
 }
 .m-landing-section3-offers-txt-1 {
     padding-top: 8px;
@@ -213,14 +223,15 @@
 }
 .m-landing-section3-offers-btn {
     border: 1px solid #33869D;
-    border-radius: 6px;
     padding: 5px 1rem;
     font-size: 14px;
-    height: 38px;
     background: #fff;
     color: #33869D;
-    width: 120px;
-    margin: 2rem 0 1rem;
+    margin: 10px 0 1rem;
+    width: 110px;
+    height: 36px;
+    letter-spacing: 0.4px;
+    border-radius: 8px;
 }
 .m-landing-section3-offers-btn-1 {
     background: #33869D;
@@ -427,7 +438,210 @@
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     width: 18%;
+    width: 120px;
     position: absolute;
     right: 0;
     top: -4rem
+}
+.m-landing-hero-img-mobile{
+    display: none;
+}
+.m-landing-section4-img-mobile {
+    display: none;
+}
+
+@media(max-width: 1200px) {
+    .m-landing-hero-txt h1 {
+        font-size: 2.8rem;
+    }
+    .m-landing-hero-btn {
+        margin-bottom: 28%;
+    }
+    .m-landing-section3-offer-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .m-landing-section3-offer-grid-1 {
+        grid-column-end: 4;
+    }
+    .m-landing-section3-offer-grid-1 > div {
+        max-width: 100%;
+    }
+    .m-landing-section3-offers {
+        max-width: 350px;
+    margin: auto;
+    }
+}
+
+@media(max-width: 1000px) {
+    .m-landing-section3-offer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .m-landing-section3-offer-grid-1 {
+        grid-column-end: 3;
+    }
+    .m-landing-hero-txt h1 {
+        font-size: 2.4rem;
+    }
+    .m-landing-hero-btn {
+        margin-bottom: 23%;
+    }
+    .m-landing-section6-sec {
+        width: 100%;
+    }
+}
+@media(max-width: 800px) {
+    .m-landing-hero-socials {
+        display: none;
+    }
+    .m-landing-hero-txt h1 {
+        font-size: 2.3rem;
+    line-height: 45px;
+    }
+    .m-landing-section3-offer-grid {
+        grid-template-columns: 1fr;
+        margin-top: 3rem;
+    }
+    .m-landing-section3-offer-grid-1 {
+        grid-column-end: 2;
+    }
+    .m-landing-hero-txt {
+        width: 100%;
+    flex: 100%;
+    text-align: center;
+    }
+    .m-landing-hero-btn {
+        margin: 0 auto 2rem;
+    }
+    .m-landing-hero-img {
+        display: none;
+    }
+    .m-landing-hero-img-mobile {
+        display: block;
+        width: 100%;
+        margin: auto;
+        /* max-width: 350px; */
+        margin-top: -2rem;
+    }
+    .m-landing-hero {
+        flex-direction: column;
+        padding-top: 8rem;
+    }
+    .m-landing-section3 {
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    .m-landing-section3-offers, .m-landing-section3-offer-grid-1 > div {
+        text-align: center;
+        max-width: 600px;
+    }
+    .m-landing-section3-offers-icon {
+        margin-left: auto;
+    margin-right: auto;
+    }
+    .m-landing-section3-offers-txt-1 {
+        width: 100%;
+    }
+    .m-landing-section3-offers-btn {
+        margin: 1rem auto;
+        width: 100%;
+    max-width: 450px;
+    }
+    .m-landing-section3-offers-img {
+        position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 300px;
+    right: unset;
+    bottom: -1.5rem;
+    }
+    .m-landing-section4 {
+        flex-direction: column-reverse;
+    padding-top: 1.5rem;
+    }
+    .m-landing-section4-info {
+        width: 100%;
+    text-align: center;
+    }
+    .m-landing-section4-info .m-landing-section2-txt {
+        margin: auto;
+    }
+    .m-landing-section4-img {
+        display: none;
+    }
+    .m-landing-section4-img-mobile {
+        display: block;
+        width: 80%;
+        max-width: 350px;
+        margin: auto;
+        margin-top: 2.5rem;
+    }
+    .m-landing-section5 {
+        padding-top: 3rem;
+    padding-bottom: 1rem;
+    }
+    .m-landing-section5-itemsec {
+        flex-direction: column;
+    align-items: center;
+    }
+    .m-landing-section5-item {
+        width: 100%;
+    margin-bottom: 3rem;
+    }
+    .m-landing-section6 {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .m-landing-section2-ttl-shadow {
+        display: none;
+    }
+    .m-landing-section6 .m-landing-section2-ttl, .m-landing-section8 .m-landing-section2-ttl {
+        text-align: center;
+    }
+    .m-landing-section6-grid {
+        grid-template-columns: 1fr;
+    }
+    .m-landing-section6-grid > div {
+        grid-row-start: unset;
+    grid-row-end: unset;
+    grid-column-start: unset;
+    grid-column-end: unset
+    }
+    .m-landing-section6-grid-item {
+        width: 100%;
+    max-width: 500px;
+    margin: auto;
+    }
+    .m-landing-section7 {
+        padding-top: 2rem;
+    padding-bottom: 2rem;
+    }
+    .m-landing-section7-sec-img1 {
+        width: 22%;
+    }
+    .m-landing-section7-sec-img2 {
+        width: 15%;
+    }
+    .m-landing-section7-btn {
+        margin-bottom: 1rem;
+    margin-top: 2rem;
+    }
+    .m-landing-section7-sec-ttl {
+        line-height: 26px;
+    }
+    .m-landing-section8-itemsec {
+        flex-direction: column;
+    }
+    .m-landing-section8-item {
+        width: 100%;
+    }
+    .m-landing-section8-item-clientImg {
+        width: 100px;
+        top: -3rem;
+    }
+    .hide {
+        display: none;
+    }
+    .m-landing-hero-txt h1 {
+        font-size: 2.2rem;
+    }
 }

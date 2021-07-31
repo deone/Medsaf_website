@@ -2,7 +2,7 @@ import * as React from "react";
 import "./home.css";
 import Navbar from "../../../GeneralComponents/Navbar/navbar";
 import cart from "../../../../assets/icons/cartWhite.svg";
-import heroImg from "../../../../assets/heroImg-crop.png";
+import heroImg from "../../../../assets/heroImg.png";
 import gsk from "../../../../assets/partners/GSK.png";
 import roche from "../../../../assets/partners/roche.svg";
 import swipha from "../../../../assets/partners/swipha.png";
@@ -32,6 +32,9 @@ import instagram from "../../../../assets/icons/instagramBlue.svg";
 import youtube from "../../../../assets/icons/youtubeBlue.svg";
 import ellipse from "../../../../assets/icons/ellipse.svg";
 import Footer from "../../../GeneralComponents/Footer/footer";
+import heroImgMobile from "../../../../assets/heroImgMobile.png";
+import whyMedsafMobile from "../../../../assets/whyMedsafMobile.png";
+
 
 const Home = () => {
   return (
@@ -59,6 +62,7 @@ const Home = () => {
           <div className="m-landing-hero-img">
             <img src={heroImg} alt="" />
           </div>
+          <img className="m-landing-hero-img-mobile" src={heroImgMobile} />
         </div>
         <div className="m-landing-section2 appContainer">
           <div className="m-landing-section2-ttl-shadow">Our partners</div>
@@ -92,6 +96,7 @@ const Home = () => {
           <div className="m-landing-section3-offer-grid">
             <div className="m-landing-section3-offer-grid-1">
               <div className="m-landing-section3-offers">
+                <div>
                 <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-1">
                   <img src={cartYellow} alt="shopping cart" />
                 </div>
@@ -108,7 +113,7 @@ const Home = () => {
                   medications you need immediately. The process is simple and
                   check out is easy. Your medications arrive within 48-72 hours
                   depending on location. Medsaf ships countrywide.
-                </p>
+                </p></div>
                 <button className="m-landing-section3-offers-btn m-landing-section3-offers-btn-1">
                   Shop now <img src={caretRight} alt="" />
                 </button>
@@ -117,6 +122,7 @@ const Home = () => {
             </div>
             <div>
               <div className="m-landing-section3-offers">
+                <div>
                 <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-2">
                   <img src={partners} alt="shopping cart" />
                 </div>
@@ -134,7 +140,7 @@ const Home = () => {
                   You work with your own dedicated Medsaf procurement team
                   member and we make the entire process of purchasing
                   medications and analyzing prices seamless and cost effective.
-                </p>
+                </p></div>
                 <button className="m-landing-section3-offers-btn">
                   Sign up
                 </button>
@@ -142,6 +148,7 @@ const Home = () => {
             </div>
             <div>
               <div className="m-landing-section3-offers">
+                <div>
                 <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-3">
                   <img src={consumables} alt="shopping cart" />
                 </div>
@@ -157,7 +164,7 @@ const Home = () => {
                   source and build relationships world-wide to make sure you
                   have the best curation of consumables for your hospital or
                   diagnostic center.
-                </p>
+                </p></div>
                 <button className="m-landing-section3-offers-btn">
                   Sign up
                 </button>
@@ -165,6 +172,7 @@ const Home = () => {
             </div>
             <div>
               <div className="m-landing-section3-offers">
+                <div>
                 <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-4">
                   <img src={hospital} alt="shopping cart" />
                 </div>
@@ -180,9 +188,9 @@ const Home = () => {
                   <br />
                   We won’t let you stock out of crucial medications with Medsaf
                   Assure. Pick your medications and quantities, sign up for the
-                  3-month, 6-month or 12-month program. Medsaf Assure helps you
+                  3-month, 6-month or 12-month program.<br /> Medsaf Assure helps you
                   get back to giving great patient care!
-                </p>
+                </p></div>
                 <button className="m-landing-section3-offers-btn">
                   Sign up
                 </button>
@@ -190,6 +198,7 @@ const Home = () => {
             </div>
             <div>
               <div className="m-landing-section3-offers">
+                <div>
                 <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-5">
                   <img src={patient} alt="shopping cart" />
                 </div>
@@ -205,7 +214,7 @@ const Home = () => {
                   very best care possible.
                   <br />
                   Please inquire for more information.
-                </p>
+                </p></div>
                 <button className="m-landing-section3-offers-btn">
                   Sign up
                 </button>
@@ -216,6 +225,7 @@ const Home = () => {
         {/* </div> */}
         <div className="m-landing-section4 appContainer">
           <img className="m-landing-section4-img" src={whyMedsaf} />
+          <img className="m-landing-section4-img-mobile" src={whyMedsafMobile} />
           <div className="m-landing-section4-info">
             <div className="m-landing-section2-ttl-shadow">
               Why choose MEDSAF
@@ -387,7 +397,7 @@ const Home = () => {
                 alt=""
               />
             </div>
-            <div className="m-landing-section8-item">
+            <div className="m-landing-section8-item hide">
               <p className="m-landing-section8-item-star">
                 &#9733; &#9733; &#9733; &#9733; &#9733;
               </p>
