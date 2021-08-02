@@ -148,3 +148,8 @@ button, input, textarea, select {
   padding-left: 4% !important;
   padding-right: 4% !important;
 }
+
+html a {
+  color: inherit;
+  text-decoration: none !important;
+}

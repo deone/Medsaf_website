@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./navbar.css";
 import logo from "../../../assets/medsafLogo.svg";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import SideNav from "react-simple-sidenav";
 import facebook from "../../../assets/icons/facebookWhite.svg";
 import twitter from "../../../assets/icons/twitterWhite.svg";
@@ -10,6 +10,7 @@ import youtube from "../../../assets/icons/youtubeWhite.svg";
 import close from "../../../assets/icons/burgerMenuClose.svg";
 
 const NavBar = (props: any) => {
+    let history = useHistory();
   const [nav, setNav] = React.useState(false);
   const uniqueKeygen = (): number => {
     return Math.floor(Math.random() * 100);
@@ -18,7 +19,7 @@ const NavBar = (props: any) => {
     <>
       <div className="m-nav">
         <div className="m-nav-desktop appContainer">
-          <img className="m-nav-logo" src={logo} alt="medsaf logo" />
+          <Link to="/"><img className="m-nav-logo" src={logo} alt="medsaf logo" /></Link>
           <nav className="m-nav-list">
             <div
               className={
@@ -27,19 +28,21 @@ const NavBar = (props: any) => {
                   : "m-nav-link m-nav-link-grey"
               }
               role="button"
+              onClick={() => history.push("/")}
             >
               Home
             </div>
+            <a href="/#offerings">
             <div
               className={
-                props.offer
+                props.offerings
                   ? "m-nav-link m-nav-link-pry m-nav-link-active"
                   : "m-nav-link m-nav-link-grey"
               }
               role="button"
             >
               What we offer
-            </div>
+            </div></a>
             <div className="m-nav-dvd"></div>
             <div className="m-nav-link m-nav-link-pry" role="button">
               Login
@@ -93,12 +96,12 @@ const NavBar = (props: any) => {
               </div>,
             ]}
             items={[
-              <Link className="m-nav-link-white m-nav-link-active" to="/">
+              <Link className={props.home ? "m-nav-link-white m-nav-link-active" : "m-nav-link-white"} to="/">
                 Home
               </Link>,
-              <Link className="m-nav-link-white" to="">
+              <a className={props.offerings ? "m-nav-link-white m-nav-link-active" : "m-nav-link-white"} href="/#offerings">
                 What we offer
-              </Link>,
+              </a>,
               <button className="m-nav-btn m-nav-btn1">Login</button>,
               <button className="m-nav-btn">Sign up</button>,
               <div className="m-nav-socials">
@@ -107,16 +110,6 @@ const NavBar = (props: any) => {
                 <img src={facebook} alt="facebook" />
                 <img src={youtube} alt="youtube" />
               </div>,
-              //   <div>
-              //     <div className="navbar-nav mr-auto">
-              //       <a href=""><span>Home</span></a>
-              //       <a href="/#services"><span>Services</span></a>
-              //       <a href="/#contact"><span>Contact Us</span></a>
-              //       <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20a%20trade">
-              //         <button>Start Trading</button>
-              //       </a>
-              //       </div>
-              //   </div>,
             ]}
           />
           <nav className="m-nav-ctrl">

@@ -18,6 +18,10 @@
 }
 .m-nav-link {
     margin-right: 2.5rem;
+    text-decoration: none !important;
+}
+.m-nav-link:hover {
+    transform: scale(1.1);
 }
 .m-nav-btn {
     background: #33869D;
