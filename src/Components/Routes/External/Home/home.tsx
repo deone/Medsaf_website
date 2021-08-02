@@ -34,7 +34,7 @@ import ellipse from "../../../../assets/icons/ellipse.svg";
 import Footer from "../../../GeneralComponents/Footer/footer";
 import heroImgMobile from "../../../../assets/heroImgMobile.png";
 import whyMedsafMobile from "../../../../assets/whyMedsafMobile.png";
-
+import line from "../../../../assets/icons/trailingLine.svg";
 
 const Home = () => {
   return (
@@ -42,6 +42,7 @@ const Home = () => {
       <div className="m-landing">
         <Navbar home={true} />
         <div className="m-landing-hero appContainer">
+          <img className="m-hero-line" src={line} alt="" />
             <div className="m-landing-hero-socials">
                 <img className="m-landing-hero-socials-arrow" src={arrow} alt="" />
                 <img className="m-landing-hero-socials-icon" src={facebook} alt="" />

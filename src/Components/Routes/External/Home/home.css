@@ -446,7 +446,7 @@
 .m-landing-hero-img-mobile{
     display: none;
 }
-.m-landing-section4-img-mobile {
+.m-landing-section4-img-mobile, .m-hero-line {
     display: none;
 }
 
@@ -511,6 +511,8 @@
         width: 100%;
     flex: 100%;
     text-align: center;
+    position: relative;
+        z-index: 2;
     }
     .m-landing-hero-btn {
         margin: 0 auto 2rem;
@@ -523,11 +525,31 @@
         width: 100%;
         margin: auto;
         /* max-width: 350px; */
-        margin-top: -2rem;
+        margin-top: -3rem;
+        position: relative;
+        z-index: 1;
     }
     .m-landing-hero {
         flex-direction: column;
         padding-top: 6rem;
+        position: relative;
+        /* background-image: url("../../../../assets/icons/trailingLine.svg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position-x: center;
+        margin-top: 2rem;
+        padding-top: 5rem; */
+    }
+    .m-hero-line {
+        display: block;
+        right: 3%;
+        position: absolute;
+        width: 94%;
+        bottom: 1rem;
+        z-index: 0;
+        height: 98%;
+        left: 3%;
+        top: 1%;
     }
     .m-landing-section3 {
         padding-top: 4rem;
