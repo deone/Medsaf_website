@@ -40,7 +40,7 @@ const Home = () => {
   return (
     <>
       <div className="m-landing">
-        <Navbar />
+        <Navbar home={true} />
         <div className="m-landing-hero appContainer">
             <div className="m-landing-hero-socials">
                 <img className="m-landing-hero-socials-arrow" src={arrow} alt="" />

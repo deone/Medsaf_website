@@ -488,6 +488,9 @@
     .m-landing-section6-sec {
         width: 100%;
     }
+    .m-landing-section8-item-clientImg {
+        width: 100px;
+    }
 }
 @media(max-width: 800px) {
     .m-landing-hero-socials {
@@ -524,7 +527,7 @@
     }
     .m-landing-hero {
         flex-direction: column;
-        padding-top: 8rem;
+        padding-top: 6rem;
     }
     .m-landing-section3 {
         padding-top: 4rem;
@@ -635,7 +638,7 @@
         width: 100%;
     }
     .m-landing-section8-item-clientImg {
-        width: 100px;
+        width: 80px;
         top: -3rem;
     }
     .hide {
@@ -643,5 +646,11 @@
     }
     .m-landing-hero-txt h1 {
         font-size: 2.2rem;
+    }
+}
+@media(max-width: 600px) {
+    .m-landing-section8-item-clientImg {
+        width: 65px;
+        top: -2.5rem;
     }
 }

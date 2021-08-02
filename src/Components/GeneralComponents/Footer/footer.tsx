@@ -8,6 +8,7 @@ import youtube from "../../../assets/icons/youtubeWhite.svg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  let date = new Date().getFullYear();
   return (
     <>
       <div className="appContainer m-footer">
@@ -51,16 +52,22 @@ const Footer = () => {
             </ul>
           </div>
           <div className="m-footer-grid-3">
-            <p className="m-footer-grid-item-hd">Services</p>
+            <p className="m-footer-grid-item-hd">Offerings</p>
             <ul className="m-footer-grid-item-list">
               <li>
-                <Link to="/">Shop now</Link>
+                <Link to="/">Marketplace</Link>
               </li>
               <li>
-                <Link to="/">Med Bank</Link>
+                <Link to="/">Platinum Partners Program</Link>
               </li>
               <li>
-                <Link to="/">Option 3</Link>
+                <Link to="/">Consumers</Link>
+              </li>
+              <li>
+                <Link to="/">MEDSAF Assure Program</Link>
+              </li>
+              <li>
+                <Link to="/">Patient Direct</Link>
               </li>
             </ul>
           </div>
@@ -86,7 +93,7 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <small>© MEDSAF 2021, All Rights Reserved</small>
+        <small>© MEDSAF {date}, All Rights Reserved</small>
       </div>
     </>
   );
