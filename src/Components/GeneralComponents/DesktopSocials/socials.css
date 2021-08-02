@@ -1,0 +1,31 @@
+.m-landing-hero-socials {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 1.5rem;
+    right: 10px;
+    height: 215px;
+    justify-content: space-between;
+}
+@keyframes arrow {
+    0% {top: -0.5rem}
+    50% {top: 0.5rem}
+    100% {top: -0.5rem}
+}
+.m-landing-hero-socials-arrow {
+    height: 80px;
+    position: relative;
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.m-landing-hero-socials-icon {
+    width: 20px;
+    cursor: pointer;
+}
+@media(max-width: 800px) {
+    .m-landing-hero-socials {
+        display: none;
+    }
+}

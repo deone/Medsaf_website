@@ -3,12 +3,15 @@ import "./offerings.css";
 import NavBar from "../../../GeneralComponents/Navbar/navbar";
 import Footer from "../../../GeneralComponents/Footer/footer";
 import Reviews from "../../../GeneralComponents/Reviews/reviews";
+import Socials from "../../../GeneralComponents/DesktopSocials/socials"
 
 const Offerings = () => {
     return (
         <>
         <NavBar offerings={true} />
-            <div>
+            <div className="appContainer">
+                <Socials />
+                
                 offerings
             </div>
         <Reviews />

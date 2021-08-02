@@ -55,7 +55,7 @@
     width: 120px;
     position: absolute;
     right: 0;
-    top: -4rem
+    top: -4rem;
 }
 
 @media(max-width: 1000px) {

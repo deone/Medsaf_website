@@ -23,17 +23,13 @@ import video from "../../../../assets/videoPlaceholder.png";
 import blog from "../../../../assets/blog.png";
 import cartGreen from "../../../../assets/icons/cartGreen.svg";
 import logoTransparent from "../../../../assets/icons/medsafLogoTransparent.svg";
-import arrow from "../../../../assets/icons/downArrow.svg";
-import facebook from "../../../../assets/icons/facebookBlue.svg";
-import twitter from "../../../../assets/icons/twitterBlue.svg";
-import instagram from "../../../../assets/icons/instagramBlue.svg";
-import youtube from "../../../../assets/icons/youtubeBlue.svg";
 import ellipse from "../../../../assets/icons/ellipse.svg";
 import Footer from "../../../GeneralComponents/Footer/footer";
 import heroImgMobile from "../../../../assets/heroImgMobile.png";
 import whyMedsafMobile from "../../../../assets/whyMedsafMobile.png";
 import line from "../../../../assets/icons/trailingLine.svg";
 import Reviews from "../../../GeneralComponents/Reviews/reviews";
+import Socials from "../../../GeneralComponents/DesktopSocials/socials";
 
 const Home = () => {
   return (
@@ -42,13 +38,7 @@ const Home = () => {
         <Navbar home={true} />
         <div className="m-landing-hero appContainer">
           <img className="m-hero-line" src={line} alt="" />
-            <div className="m-landing-hero-socials">
-                <img className="m-landing-hero-socials-arrow" src={arrow} alt="" />
-                <img className="m-landing-hero-socials-icon" src={facebook} alt="" />
-                <img className="m-landing-hero-socials-icon" src={twitter} alt="" />
-                <img className="m-landing-hero-socials-icon" src={instagram} alt="" />
-                <img className="m-landing-hero-socials-icon" src={youtube} alt="" />
-            </div>
+          <Socials />
           <div className="m-landing-hero-txt">
             <h1>
               Quality <span> medication</span> is a fundamental human right
@@ -97,23 +87,24 @@ const Home = () => {
             <div className="m-landing-section3-offer-grid-1">
               <div className="m-landing-section3-offers">
                 <div>
-                <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-1">
-                  <img src={cartYellow} alt="shopping cart" />
+                  <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-1">
+                    <img src={cartYellow} alt="shopping cart" />
+                  </div>
+                  <h5 className="m-landing-section3-offers-ttl">Marketplace</h5>
+                  <p className="m-landing-section3-offers-txt m-landing-section3-offers-txt-1">
+                    Medsaf has a high proficiency and stellar track record of
+                    vetting suppliers and manufacturers of crucial medications
+                    in the Nigerian landscape. Medsaf medications go through 7
+                    layers of vetting and quality control before they reach your
+                    doorstep. We curate the medications based on hospital demand
+                    and use our extensive market research and specialized
+                    algorithms to set medication prices in real time. Our goal
+                    is to provide you with the most up to date prices on the
+                    medications you need immediately. The process is simple and
+                    check out is easy. Your medications arrive within 48-72
+                    hours depending on location. Medsaf ships countrywide.
+                  </p>
                 </div>
-                <h5 className="m-landing-section3-offers-ttl">Marketplace</h5>
-                <p className="m-landing-section3-offers-txt m-landing-section3-offers-txt-1">
-                  Medsaf has a high proficiency and stellar track record of
-                  vetting suppliers and manufacturers of crucial medications in
-                  the Nigerian landscape. Medsaf medications go through 7 layers
-                  of vetting and quality control before they reach your
-                  doorstep. We curate the medications based on hospital demand
-                  and use our extensive market research and specialized
-                  algorithms to set medication prices in real time. Our goal is
-                  to provide you with the most up to date prices on the
-                  medications you need immediately. The process is simple and
-                  check out is easy. Your medications arrive within 48-72 hours
-                  depending on location. Medsaf ships countrywide.
-                </p></div>
                 <button className="m-landing-section3-offers-btn m-landing-section3-offers-btn-1">
                   Shop now <img src={caretRight} alt="" />
                 </button>
@@ -123,24 +114,26 @@ const Home = () => {
             <div>
               <div className="m-landing-section3-offers">
                 <div>
-                <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-2">
-                  <img src={partners} alt="shopping cart" />
+                  <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-2">
+                    <img src={partners} alt="shopping cart" />
+                  </div>
+                  <h5 className="m-landing-section3-offers-ttl">
+                    Platinum Partners Program
+                  </h5>
+                  <p className="m-landing-section3-offers-txt">
+                    Medsaf partners with the hospitals that take Quality with
+                    the utmost importance.
+                    <br />
+                    The Medsaf Platinum Partners Program is a specially curated
+                    and tailored program where we handle all of your procurement
+                    needs.
+                    <br />
+                    You work with your own dedicated Medsaf procurement team
+                    member and we make the entire process of purchasing
+                    medications and analyzing prices seamless and cost
+                    effective.
+                  </p>
                 </div>
-                <h5 className="m-landing-section3-offers-ttl">
-                  Platinum Partners Program
-                </h5>
-                <p className="m-landing-section3-offers-txt">
-                  Medsaf partners with the hospitals that take Quality with the
-                  utmost importance.
-                  <br />
-                  The Medsaf Platinum Partners Program is a specially curated
-                  and tailored program where we handle all of your procurement
-                  needs.
-                  <br />
-                  You work with your own dedicated Medsaf procurement team
-                  member and we make the entire process of purchasing
-                  medications and analyzing prices seamless and cost effective.
-                </p></div>
                 <button className="m-landing-section3-offers-btn">
                   Sign up
                 </button>
@@ -149,22 +142,23 @@ const Home = () => {
             <div>
               <div className="m-landing-section3-offers">
                 <div>
-                <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-3">
-                  <img src={consumables} alt="shopping cart" />
+                  <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-3">
+                    <img src={consumables} alt="shopping cart" />
+                  </div>
+                  <h5 className="m-landing-section3-offers-ttl">Consumables</h5>
+                  <p className="m-landing-section3-offers-txt">
+                    Medsaf specializes in sourcing high quality consumables for
+                    your hospital’s daily needs.
+                    <br />
+                    Though low cost, consistent and quality consumables are some
+                    of the hardest products to source.
+                    <br />
+                    Quality varies wildly and prices move with the market. We
+                    source and build relationships world-wide to make sure you
+                    have the best curation of consumables for your hospital or
+                    diagnostic center.
+                  </p>
                 </div>
-                <h5 className="m-landing-section3-offers-ttl">Consumables</h5>
-                <p className="m-landing-section3-offers-txt">
-                  Medsaf specializes in sourcing high quality consumables for
-                  your hospital’s daily needs.
-                  <br />
-                  Though low cost, consistent and quality consumables are some
-                  of the hardest products to source.
-                  <br />
-                  Quality varies wildly and prices move with the market. We
-                  source and build relationships world-wide to make sure you
-                  have the best curation of consumables for your hospital or
-                  diagnostic center.
-                </p></div>
                 <button className="m-landing-section3-offers-btn">
                   Sign up
                 </button>
@@ -173,24 +167,27 @@ const Home = () => {
             <div>
               <div className="m-landing-section3-offers">
                 <div>
-                <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-4">
-                  <img src={hospital} alt="shopping cart" />
+                  <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-4">
+                    <img src={hospital} alt="shopping cart" />
+                  </div>
+                  <h5 className="m-landing-section3-offers-ttl">
+                    MEDSAF Assure Program
+                  </h5>
+                  <p className="m-landing-section3-offers-txt">
+                    Medication prices fluctuate drastically in the Nigerian
+                    market due to FX and supply chain issues.
+                    <br />
+                    Medsaf Assure program allows you to lock in prices of
+                    crucial medications and get in front of your medications
+                    needs.
+                    <br />
+                    We won’t let you stock out of crucial medications with
+                    Medsaf Assure. Pick your medications and quantities, sign up
+                    for the 3-month, 6-month or 12-month program.
+                    <br /> Medsaf Assure helps you get back to giving great
+                    patient care!
+                  </p>
                 </div>
-                <h5 className="m-landing-section3-offers-ttl">
-                  MEDSAF Assure Program
-                </h5>
-                <p className="m-landing-section3-offers-txt">
-                  Medication prices fluctuate drastically in the Nigerian market
-                  due to FX and supply chain issues.
-                  <br />
-                  Medsaf Assure program allows you to lock in prices of crucial
-                  medications and get in front of your medications needs.
-                  <br />
-                  We won’t let you stock out of crucial medications with Medsaf
-                  Assure. Pick your medications and quantities, sign up for the
-                  3-month, 6-month or 12-month program.<br /> Medsaf Assure helps you
-                  get back to giving great patient care!
-                </p></div>
                 <button className="m-landing-section3-offers-btn">
                   Sign up
                 </button>
@@ -199,22 +196,23 @@ const Home = () => {
             <div>
               <div className="m-landing-section3-offers">
                 <div>
-                <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-5">
-                  <img src={patient} alt="shopping cart" />
+                  <div className="m-landing-section3-offers-icon m-landing-section3-offers-icon-5">
+                    <img src={patient} alt="shopping cart" />
+                  </div>
+                  <h5 className="m-landing-section3-offers-ttl">
+                    Patient Direct
+                  </h5>
+                  <p className="m-landing-section3-offers-txt">
+                    Medsaf works with our network of doctors to source the
+                    highest quality chronic illness medications for patients.
+                    <br />
+                    We work on negotiating prices and offering them at wholesale
+                    prices so that you and your loved ones can afford to have
+                    the very best care possible.
+                    <br />
+                    Please inquire for more information.
+                  </p>
                 </div>
-                <h5 className="m-landing-section3-offers-ttl">
-                  Patient Direct
-                </h5>
-                <p className="m-landing-section3-offers-txt">
-                  Medsaf works with our network of doctors to source the highest
-                  quality chronic illness medications for patients.
-                  <br />
-                  We work on negotiating prices and offering them at wholesale
-                  prices so that you and your loved ones can afford to have the
-                  very best care possible.
-                  <br />
-                  Please inquire for more information.
-                </p></div>
                 <button className="m-landing-section3-offers-btn">
                   Sign up
                 </button>
@@ -225,7 +223,10 @@ const Home = () => {
         {/* </div> */}
         <div className="m-landing-section4 appContainer">
           <img className="m-landing-section4-img" src={whyMedsaf} />
-          <img className="m-landing-section4-img-mobile" src={whyMedsafMobile} />
+          <img
+            className="m-landing-section4-img-mobile"
+            src={whyMedsafMobile}
+          />
           <div className="m-landing-section4-info">
             <div className="m-landing-section2-ttl-shadow">
               Why choose MEDSAF
@@ -254,13 +255,33 @@ const Home = () => {
               <h6 className="m-landing-section5-item-ttl">
                 Introduction to <span>MEDSAF</span>
               </h6>
-              <img className="m-landing-section5-item-vid" src={video} alt="" />
+              {/* <img className="m-landing-section5-item-vid" src={video} alt="" /> */}
+              <iframe
+                className="m-landing-section5-item-vid"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/jii9AQYWHHc"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
             <div className="m-landing-section5-item">
               <h6 className="m-landing-section5-item-ttl">
                 Customer<span> Testimonials</span>
               </h6>
-              <img className="m-landing-section5-item-vid" src={video} alt="" />
+              {/* <img className="m-landing-section5-item-vid" src={video} alt="" /> */}
+              <iframe
+                className="m-landing-section5-item-vid"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/N2yABbZpFao"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>
@@ -352,14 +373,11 @@ const Home = () => {
               className="m-landing-section7-sec-img1"
               src={logoTransparent}
             />
-            <img
-              className="m-landing-section7-sec-img2"
-              src={ellipse}
-            />
+            <img className="m-landing-section7-sec-img2" src={ellipse} />
           </div>
         </div>
-        </div>
-        <Reviews />
+      </div>
+      <Reviews />
       <Footer />
     </>
   );
