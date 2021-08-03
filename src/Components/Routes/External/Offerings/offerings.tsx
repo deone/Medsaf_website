@@ -6,11 +6,21 @@ import Reviews from "../../../GeneralComponents/Reviews/reviews";
 import Socials from "../../../GeneralComponents/DesktopSocials/socials";
 import heroImg from "../../../../assets/offeringsHeroImg.png";
 import cart from "../../../../assets/icons/cartWhite.svg";
+import sectionTwoImg from "../../../../assets/offeringsSectionTwoImg.png";
+import sectionThreeImg from "../../../../assets/offeringsSectionThreeImg.png";
+import sectionFourImg from "../../../../assets/offeringsSectionFourImg.png";
 import sectionFiveImg from "../../../../assets/offeringsSectionFiveImg.png";
 import sectionSixImg from "../../../../assets/offeringsSectionSixImg.png";
 import sectionTwoImgMobile from "../../../../assets/offeringsSectionTwoImgMobile.png";
+import sectionThreeImgMobile from "../../../../assets/offeringsSectionThreeImgMobile.png";
+import sectionFourImgMobile from "../../../../assets/offeringsSectionFourImgMobile.png";
+import sectionFiveImgMobile from "../../../../assets/offeringsSectionFiveImgMobile.png";
+import sectionSixImgMobile from "../../../../assets/offeringsSectionSixImgMobile.png";
 
 const Offerings = () => {
+    React.useEffect(() => {
+        window.scrollTo(-0,-0);
+    }, [])
   return (
     <>
     <div className="m-offerings">
@@ -32,7 +42,7 @@ const Offerings = () => {
         {/* <img className="m-landing-hero-img-mobile" src={heroImgMobile} /> */}
       </div>
       <div className="m-landing-section4 m-offerings-section2 appContainer">
-        <img className="m-landing-section4-img" src={heroImg} />
+        <img className="m-landing-section4-img" src={sectionTwoImg} />
         <img
           className="m-landing-section4-img-mobile"
           src={sectionTwoImgMobile}
@@ -66,8 +76,8 @@ const Offerings = () => {
         </div>
       </div>
       <div className="m-landing-section4 m-offerings-section3 appContainer">
-        <img className="m-landing-section4-img" src={heroImg} />
-        <img className="m-landing-section4-img-mobile" src={heroImg} />
+        <img className="m-landing-section4-img" src={sectionThreeImg} />
+        <img className="m-landing-section4-img-mobile" src={sectionThreeImgMobile} />
         <div className="m-landing-section4-info">
           <div className="m-landing-section2-ttl-shadow">
             Platinum Partners Program
@@ -88,8 +98,8 @@ const Offerings = () => {
         </div>
       </div>
       <div className="m-landing-section4 m-offerings-section4 appContainer">
-        <img className="m-landing-section4-img" src={heroImg} />
-        <img className="m-landing-section4-img-mobile" src={heroImg} />
+        <img className="m-landing-section4-img" src={sectionFourImg} />
+        <img className="m-landing-section4-img-mobile" src={sectionFourImgMobile} />
         <div className="m-landing-section4-info">
           <div className="m-landing-section2-ttl-shadow">Consumables</div>
           <h4 className="m-landing-section2-ttl">Consumables</h4>
@@ -107,9 +117,9 @@ const Offerings = () => {
           <button className="m-landing-hero-btn center-btntxt">Sign up</button>
         </div>
       </div>
-      <div className="m-landing-section4 m-offerings-section5 appContainer">
+      <div id="assure" className="m-landing-section4 m-offerings-section5 appContainer">
         <img className="m-landing-section4-img" src={sectionFiveImg} />
-        <img className="m-landing-section4-img-mobile" src={heroImg} />
+        <img className="m-landing-section4-img-mobile" src={sectionFiveImgMobile} />
         <div className="m-landing-section4-info">
           <div className="m-landing-section2-ttl-shadow">
             MEDSAF Assure Program
@@ -137,9 +147,9 @@ const Offerings = () => {
           <button className="m-landing-hero-btn center-btntxt">Sign up</button>
         </div>
       </div>
-      <div className="m-landing-section4 m-offerings-section6 appContainer">
+      <div id="patientDirect" className="m-landing-section4 m-offerings-section6 appContainer">
         <img className="m-landing-section4-img" src={sectionSixImg} />
-        <img className="m-landing-section4-img-mobile" src={heroImg} />
+        <img className="m-landing-section4-img-mobile" src={sectionSixImgMobile} />
         <div className="m-landing-section4-info">
           <div className="m-landing-section2-ttl-shadow">Patient Direct</div>
           <h4 className="m-landing-section2-ttl">Patient Direct</h4>

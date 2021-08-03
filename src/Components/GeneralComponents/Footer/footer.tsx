@@ -64,10 +64,10 @@ const Footer = () => {
                 <Link to="/">Consumers</Link>
               </li>
               <li>
-                <Link to="/">MEDSAF Assure Program</Link>
+              <a href="/offerings/#assure">MEDSAF Assure Program</a>
               </li>
               <li>
-                <Link to="/">Patient Direct</Link>
+              <a href="/offerings/#patientDirect">Patient Direct</a>
               </li>
             </ul>
           </div>

@@ -7,8 +7,8 @@
     display: flex;
 }
 .m-offerings-hero-txt {
-    font-size: 14.5px;
-    max-width: 400px;
+    font-size: 16px;
+    max-width: 450px;
     line-height: 26px;
     margin-bottom: 38%;
 }
@@ -26,7 +26,7 @@
     flex-direction: row-reverse;
 }
 .m-offerings-section2-txt {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 21px;
 }
 .m-offerings-section2-txt br {
@@ -36,6 +36,7 @@
 }
 .center-btntxt {
     justify-content: center;
+    font-size: 14px;
 }
 
 @media(max-width: 800px) {
@@ -56,5 +57,9 @@
     }
     .m-offerings-section2, .m-offerings-section4, .m-offerings-section6 {
         flex-direction: column-reverse;
+    }
+    .m-offerings-hero-txt {
+        font-size: 14px;
+        max-width: 400px;
     }
 }

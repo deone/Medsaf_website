@@ -36,6 +36,9 @@ import blog4 from "../../../../assets/blog4.png";
 
 
 const Home = () => {
+  React.useEffect(() => {
+    window.scrollTo(-0,-0);
+}, [])
   return (
     <>
       <div className="m-landing">
@@ -192,9 +195,9 @@ const Home = () => {
                     patient care!
                   </p>
                 </div>
-                <button className="m-landing-section3-offers-btn">
+                <a href="/offerings/#assure"><button className="m-landing-section3-offers-btn">
                   Sign up
-                </button>
+                </button></a>
               </div>
             </div>
             <div>
@@ -217,9 +220,9 @@ const Home = () => {
                     Please inquire for more information.
                   </p>
                 </div>
-                <button className="m-landing-section3-offers-btn">
+                <a href="/offerings/#patientDirect"><button className="m-landing-section3-offers-btn">
                   Sign up
-                </button>
+                </button></a>
               </div>
             </div>
           </div>
