@@ -369,7 +369,12 @@
 .m-landing-section4-img-mobile, .m-hero-line {
     display: none;
 }
-
+.btn-disabled {
+    cursor: not-allowed;
+    background: #bfbfbf;
+    color: #fff;
+    border-color: #bfbfbf;
+}
 @media(max-width: 1200px) {
     .m-landing-hero-txt h1 {
         font-size: 2.8rem;

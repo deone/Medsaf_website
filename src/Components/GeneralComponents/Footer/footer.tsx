@@ -41,7 +41,7 @@ const Footer = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/">What we offer</Link>
+                <Link to="/offerings">What we offer</Link>
               </li>
               <li>
                 <Link to="/">Sign up</Link>
@@ -55,7 +55,7 @@ const Footer = () => {
             <p className="m-footer-grid-item-hd">Offerings</p>
             <ul className="m-footer-grid-item-list">
               <li>
-                <Link to="/">Marketplace</Link>
+              <a target="_blank" href="https://shop.medsaf.com/">Marketplace</a>
               </li>
               <li>
                 <Link to="/">Platinum Partners Program</Link>
