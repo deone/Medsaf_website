@@ -110,7 +110,7 @@ const Offerings = () => {
             <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">
             <button
               className="m-landing-hero-btn center-btntxt"
-              disabled
+              
             >
               Sign up
             </button></a>
@@ -144,7 +144,7 @@ const Offerings = () => {
             </p>
             <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><button
               className="m-landing-hero-btn center-btntxt"
-              disabled
+              
             >
               Sign up
             </button></a>
