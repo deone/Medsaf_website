@@ -115,7 +115,7 @@ const Home = () => {
                     hours depending on location. Medsaf ships countrywide.
                   </p>
                 </div>
-                <a target="_blank" href="/offerings/#marketplace">
+                <a href="/offerings/#marketplace">
                   <button className="m-landing-section3-offers-btn m-landing-section3-offers-btn-1">
                     Read more <img src={caretRight} alt="" />
                   </button>

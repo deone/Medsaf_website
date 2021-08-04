@@ -16,7 +16,8 @@ const Assure = () => {
           <div className="m-waitlist-formsec">
             <h4 className="m-programs-txt">Medsaf Assure Waitlist</h4>
             <div className="m-waitlist-form">
-              <div id="ff-compose1"></div>
+              {/* <div id="ff-compose1"></div> */}
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSctoeURWAvTeTT2CdBZ-yTyOQbyHSK_KrAcPmHPLWlxAqg89g/viewform?embedded=true" width="100%" height="800" frameBorder="0" marginHeight={0} marginWidth={0}>Loading…</iframe>
             </div>
             <div className="m-programs-socials">
                 <a target="_blank" href="https://facebook.com/medsafcom"><img src={facebook} alt="facebook" /></a>

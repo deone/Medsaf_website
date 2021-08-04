@@ -175,15 +175,12 @@ const Offerings = () => {
               really need them. <br />
               Medsaf Assure helps you get back to giving great patient care!
             </p>
-            {/* <Link
+            <Link
               to="/offerings/MedsafAssureProgram"
               className="m-landing-hero-btn center-btntxt"
             >
               Sign up
-            </Link> */}
-            <button className="m-landing-hero-btn center-btntxt btn-disabled" disabled>
-                Sign up
-            </button>
+            </Link>
           </div>
         </div>
         <div
@@ -209,11 +206,11 @@ const Offerings = () => {
               and we make the entire process of purchasing medications and
               analyzing prices seamless and cost effective.
             </p>
-            {/* <Link to="/offerings/PatientDirectProgram"> */}
-              <button className="m-landing-hero-btn center-btntxt btn-disabled" disabled>
+            <Link to="/offerings/PatientDirectProgram">
+              <button className="m-landing-hero-btn center-btntxt">
                 Sign up
               </button>
-            {/* </Link> */}
+            </Link>
           </div>
         </div>
         <Reviews />
