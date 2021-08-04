@@ -94,7 +94,7 @@
     border-color: #313D55;
 }
 .m-footer small {
-    color: #FAFBFC90;
+    color: #FAFBFC;
 }
 .m-footer li a {
     color: inherit !important;
@@ -102,6 +102,18 @@
 }
 .m-footer-grid-item-list li:hover {
     transform: scale(1.05);
+}
+.m-footer-numbers {
+    display: flex;
+    align-items: center;
+}
+.m-footer-numbers img {
+    width: 20px; 
+    margin-right: 10px;
+}
+.m-footer-numbers div {
+    display: flex;
+    flex-direction: column;
 }
 
 @media(max-width: 1000px) {
@@ -147,5 +159,11 @@
     }
     .m-footer-socials-icons {
         margin: auto;
+    }
+    .m-footer-numbers {
+        justify-content: center;
+    }
+    .m-footer-grid-3-link {
+    justify-content: center;
     }
 }

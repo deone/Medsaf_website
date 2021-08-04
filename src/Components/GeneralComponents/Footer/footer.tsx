@@ -6,7 +6,9 @@ import twitter from "../../../assets/icons/twitterWhite.svg";
 import instagram from "../../../assets/icons/instagramWhite.svg";
 import youtube from "../../../assets/icons/youtubeWhite.svg";
 import { Link } from "react-router-dom";
-import whatsapp from "../../../assets/icons/whatsappWhite.png";
+import whatsapp from "../../../assets/icons/whatsappYellow.svg";
+import email from "../../../assets/icons/emailYellow.svg";
+
 
 
 const Footer = () => {
@@ -83,19 +85,30 @@ const Footer = () => {
                 55 Sir Tony Eromosele Street, Ikoyi, Lagos, Nigeria
               </p>
             </address>
-            <a target="_blank" className="m-footer-grid-3-link" href="https://api.whatsapp.com/send?phone=2347034124566">
+            {/* <a target="_blank" className="m-footer-grid-3-link" href="https://api.whatsapp.com/send?phone=2347034124566">
               <img src={whatsapp} alt="whatsapp" />
               +234 703 412 4566
             </a>
             <a target="_blank" className="m-footer-grid-3-link" href="https://api.whatsapp.com/send?phone=2349019987862">
               <img src={whatsapp} alt="whatsapp" />
               +234 901 998 7862
-            </a>
+            </a> */}
+            <div className="m-footer-numbers">
+              <img src={whatsapp} alt="whatsapp" />
+              <div>
+                <a target="_blank" className="m-footer-grid-3-link" href="https://api.whatsapp.com/send?phone=2347034124566">
+                  +234 703 412 4566
+                </a>
+                <a target="_blank" className="m-footer-grid-3-link" href="https://api.whatsapp.com/send?phone=2349019987862">
+                  +234 901 998 7862
+                </a>
+              </div>
+            </div>
             <a
               className="m-footer-grid-3-link"
               href="mailto: contact@medsaf.com"
             >
-              {/* <img src={twitter} /> */}
+              <img src={email} alt="email" />
               contact@medsaf.com
             </a>
           </div>
