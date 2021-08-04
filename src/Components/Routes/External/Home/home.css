@@ -45,6 +45,18 @@
     justify-content: space-between;
     margin-bottom: 35%;
 }
+.bigger-btn {
+    height: 54px;
+    width: 250px;
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+}
+.bigger-btn img {
+    margin-right: 12px;
+    width: 22px;
+    font-weight: 600px;
+}
 .m-landing-hero-btn:hover {
     color: #fff;
     transform: scale(1.07);
@@ -288,12 +300,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    padding-top: 1rem;
 }
 .m-landing-section6-sec {
     width: 85%;
     margin: auto;
 }
-.m-landing-section6-grid-1 {
+/* .m-landing-section6-grid-1 {
     grid-row-start: 2;
     grid-row-end: 4;
 }
@@ -310,7 +323,7 @@
     grid-row-start: 3;
     grid-row-end: 5;
     grid-column-start: 2;
-}
+} */
 .m-landing-section6-grid-item {
     background: #fff;
     box-shadow: 0px 2px 4px rgba(14, 86, 124, 0.165308);

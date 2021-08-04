@@ -50,7 +50,7 @@ const Home = () => {
             <h1>
               Quality <span> medication</span> is a fundamental human right
             </h1>
-            <a target="_blank" href="https://shop.medsaf.com/"><button className="m-landing-hero-btn">
+            <a target="_blank" href="https://shop.medsaf.com/"><button className="m-landing-hero-btn bigger-btn">
               {" "}
               <img src={cart} alt="shopping cart" />
               Shop now
