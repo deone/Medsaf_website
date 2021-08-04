@@ -42,7 +42,7 @@ const Offerings = () => {
         </div>
         {/* <img className="m-landing-hero-img-mobile" src={heroImgMobile} /> */}
       </div>
-      <div className="m-landing-section4 m-offerings-section2 appContainer">
+      <div id="marketplace" className="m-landing-section4 m-offerings-section2 appContainer">
         <img className="m-landing-section4-img" src={sectionTwoImg} />
         <img
           className="m-landing-section4-img-mobile"
@@ -76,7 +76,7 @@ const Offerings = () => {
           </a>
         </div>
       </div>
-      <div className="m-landing-section4 m-offerings-section3 appContainer">
+      <div id="platinum" className="m-landing-section4 m-offerings-section3 appContainer">
         <img className="m-landing-section4-img" src={sectionThreeImg} />
         <img className="m-landing-section4-img-mobile" src={sectionThreeImgMobile} />
         <div className="m-landing-section4-info">
@@ -98,7 +98,7 @@ const Offerings = () => {
           <button className="m-landing-hero-btn center-btntxt btn-disabled">Sign up</button>
         </div>
       </div>
-      <div className="m-landing-section4 m-offerings-section4 appContainer">
+      <div id="consumables" className="m-landing-section4 m-offerings-section4 appContainer">
         <img className="m-landing-section4-img" src={sectionFourImg} />
         <img className="m-landing-section4-img-mobile" src={sectionFourImgMobile} />
         <div className="m-landing-section4-info">

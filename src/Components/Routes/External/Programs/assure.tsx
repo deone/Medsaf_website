@@ -19,10 +19,10 @@ const Assure = () => {
               <div id="ff-compose1"></div>
             </div>
             <div className="m-programs-socials">
-              <img src={facebook} alt="facebook" />
-              <img src={twitter} alt="twitter" />
-              <img src={instagram} alt="instagram" />
-              <img src={youtube} alt="youtube" />
+                <a target="_blank" href="https://facebook.com/medsafcom"><img src={facebook} alt="facebook" /></a>
+                <a target="_blank" href="https://twitter.com/medsafcom"><img src={twitter} alt="twitter" /></a>
+                <a target="_blank" href="https://instagram.com/medsafcom"><img src={instagram} alt="instagram" /></a>
+                <a target="_blank" href="https://m.youtube.com/channel/UC_wYayI3FtdkXOJsdsM-T5g"><img src={youtube} alt="youtube" /></a>
             </div>
           </div>
         </div>

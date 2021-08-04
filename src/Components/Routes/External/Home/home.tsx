@@ -141,9 +141,9 @@ const Home = () => {
                     effective.
                   </p>
                 </div>
-                <button className="m-landing-section3-offers-btn btn-disabled" disabled>
+                <a href="/offerings/#platinum"><button className="m-landing-section3-offers-btn">
                   Sign up
-                </button>
+                </button></a>
               </div>
             </div>
             <div>
@@ -166,9 +166,9 @@ const Home = () => {
                     diagnostic center.
                   </p>
                 </div>
-                <button className="m-landing-section3-offers-btn btn-disabled" disabled>
+                <a href="/offerings/#consumables"><button className="m-landing-section3-offers-btn">
                   Sign up
-                </button>
+                </button></a>
               </div>
             </div>
             <div>
