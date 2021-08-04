@@ -16,6 +16,7 @@ import sectionThreeImgMobile from "../../../../assets/offeringsSectionThreeImgMo
 import sectionFourImgMobile from "../../../../assets/offeringsSectionFourImgMobile.png";
 import sectionFiveImgMobile from "../../../../assets/offeringsSectionFiveImgMobile.png";
 import sectionSixImgMobile from "../../../../assets/offeringsSectionSixImgMobile.png";
+import { Link } from "react-router-dom";
 
 const Offerings = () => {
     React.useEffect(() => {
@@ -94,7 +95,7 @@ const Offerings = () => {
             we make the entire process of purchasing medications and analyzing
             prices seamless and cost effective.
           </p>
-          <button className="m-landing-hero-btn center-btntxt">Sign up</button>
+          <button className="m-landing-hero-btn center-btntxt btn-disabled">Sign up</button>
         </div>
       </div>
       <div className="m-landing-section4 m-offerings-section4 appContainer">
@@ -114,7 +115,7 @@ const Offerings = () => {
             build relationships world-wide to make sure you have the best
             curation of consumables for your hospital or diagnostic center.
           </p>
-          <button className="m-landing-hero-btn center-btntxt">Sign up</button>
+          <button className="m-landing-hero-btn center-btntxt btn-disabled">Sign up</button>
         </div>
       </div>
       <div id="assure" className="m-landing-section4 m-offerings-section5 appContainer">
@@ -144,7 +145,7 @@ const Offerings = () => {
             really need them. <br />
             Medsaf Assure helps you get back to giving great patient care!
           </p>
-          <button className="m-landing-hero-btn center-btntxt">Sign up</button>
+          <Link to="/offerings/MedsafAssureProgram" className="m-landing-hero-btn center-btntxt">Sign up</Link>
         </div>
       </div>
       <div id="patientDirect" className="m-landing-section4 m-offerings-section6 appContainer">
@@ -164,7 +165,7 @@ const Offerings = () => {
             we make the entire process of purchasing medications and analyzing
             prices seamless and cost effective.
           </p>
-          <button className="m-landing-hero-btn center-btntxt">Sign up</button>
+          <Link to="/offerings/PatientDirectProgram"><button className="m-landing-hero-btn center-btntxt">Sign up</button></Link>
         </div>
       </div>
       <Reviews />

@@ -4,7 +4,7 @@
     flex-direction: column;
     top: 1.5rem;
     right: 10px;
-    height: 215px;
+    height: 300px;
     justify-content: space-between;
 }
 @keyframes arrow {
@@ -13,7 +13,7 @@
     100% {top: -0.5rem}
 }
 .m-landing-hero-socials-arrow {
-    height: 80px;
+    height: 90px;
     position: relative;
     animation-name: arrow;
     animation-duration: 1s;
@@ -21,8 +21,20 @@
     animation-timing-function: ease-in-out;
 }
 .m-landing-hero-socials-icon {
-    width: 20px;
+    width: 24px;
     cursor: pointer;
+}
+@media(max-width: 1000px) {
+    .m-landing-hero-socials-arrow {
+        height: 80px;
+    }
+    .m-landing-hero-socials-icon {
+        width: 20px;
+        cursor: pointer;
+    }
+    .m-landing-hero-socials {
+        height: 215px;
+    }
 }
 @media(max-width: 800px) {
     .m-landing-hero-socials {

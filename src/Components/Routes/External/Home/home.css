@@ -45,6 +45,10 @@
     justify-content: space-between;
     margin-bottom: 35%;
 }
+.m-landing-hero-btn:hover {
+    color: #fff;
+    transform: scale(1.07);
+}
 .m-landing-hero-btn img {
     width: 20px;
 }
