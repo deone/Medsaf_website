@@ -82,7 +82,7 @@ const Home = () => {
             <img src={sanofi} alt="" />
             <img src={merck} alt="" />
             <img src={novartis} alt="" />
-            <img src={vedic} alt="" />
+            {/* <img src={vedic} alt="" /> */}
           </div>
         </div>
         <div className="m-landing-section3 appContainer" id="offerings">
