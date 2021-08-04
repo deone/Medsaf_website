@@ -3,8 +3,16 @@
     font-size: 14px;
     color: #4E5D78;
 }
+/* .m-waitlist .freebirdFormviewerViewEmbedded .freebirdFormviewerViewCenteredContent{
+    width: 100% !important;
+    margin: 0;
+    max-width: 100% !important;
+} */
+.m-waitlist html::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+  } 
 .m-waitlist {
-
     display: flex;
     justify-content: center;
     padding: 4rem 1rem;
@@ -22,7 +30,7 @@
     border-radius: 8px;
     width: 100%;
     margin: 1.5rem auto;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 .m-programs-txt {
     color: #33869D;

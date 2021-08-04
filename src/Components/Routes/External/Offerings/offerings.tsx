@@ -59,19 +59,17 @@ const Offerings = () => {
             <p className="m-landing-section2-txt m-offerings-section2-txt">
               Medsaf has a high proficiency and stellar track record of vetting
               suppliers and manufacturers of crucial medications in the Nigerian
-              landscape. Medsaf medications go through 7 layers of vetting and
+              landscape.
+              <br /> Medsaf medications go through 7 layers of vetting and
               quality control before they reach your doorstep.
-              <br />
-              We curate the medications based on hospital demand and use our
-              extensive market research and specialized algorithms to set
+              <br /> We curate the medications based on hospital demand and use
+              our extensive market research and specialized algorithms to set
               medication prices in real time.
-              <br />
-              Our goal is to provide you with the most up to date prices on the
-              medications you need immediately.
-              <br />
-              The process is simple and check out is easy. Your medications
-              arrive within 48-72 hours depending on location. Medsaf ships
-              countrywide.
+              <br /> Our goal is to provide you with the most up to date prices
+              on the medications you need immediately. The process is simple and
+              check out is easy.
+              <br /> Your medications arrive within 48-72 hours depending on
+              location. Medsaf ships countrywide.
             </p>
             <a target="_blank" href="https://shop.medsaf.com/">
               <button className="m-landing-hero-btn">
@@ -99,17 +97,20 @@ const Offerings = () => {
               Platinum Partners program
             </h4>
             <p className="m-landing-section2-txt m-offerings-section2-txt">
-              Medsaf partners with the hospitals that take Quality with the
-              utmost importance.
+              Medsaf partners with the hospitals that prioritize Quality with
+              the utmost importance.
               <br />
               The Medsaf Platinum Partners Program is a specially curated and
-              tailored program where we handle all of your procurement needs.
+              tailored program wherewe handle all of your procurement needs.
               <br />
               You work with your own dedicated Medsaf procurement team member
               and we make the entire process of purchasing medications and
-              analyzing prices seamless and cost effective.
+              analyzing prices seamless and cost effective
             </p>
-            <button className="m-landing-hero-btn center-btntxt btn-disabled" disabled>
+            <button
+              className="m-landing-hero-btn center-btntxt btn-disabled"
+              disabled
+            >
               Sign up
             </button>
           </div>
@@ -130,14 +131,20 @@ const Offerings = () => {
               Medsaf specializes in sourcing high quality consumables for your
               hospital’s daily needs.
               <br />
-              Though low cost, consistent and quality consumables are some of
-              the hardest products to source.
+              Low cost, consistent and quality consumables are some of the
+              hardest products to source.
+              <br /> Quality varies wildly and prices move with the market.
+              <br /> We source and build relationships world-wide to make sure
+              you have the best curation of consumables for your hospital or
+              diagnostic center.
               <br />
-              Quality varies wildly and prices move with the market. We source
-              and build relationships world-wide to make sure you have the best
-              curation of consumables for your hospital or diagnostic center.
+              Please check out our new Covid-19 diagnostic consumables at the
+              best prices in the market.
             </p>
-            <button className="m-landing-hero-btn center-btntxt btn-disabled" disabled>
+            <button
+              className="m-landing-hero-btn center-btntxt btn-disabled"
+              disabled
+            >
               Sign up
             </button>
           </div>
@@ -164,16 +171,11 @@ const Offerings = () => {
               medications and get in front of your medications needs.
               <br />
               We won’t let you stock out of crucial medications with Medsaf
-              Assure.
-              <br />
-              Pick your medications and quantities, sign up for the 3-month,
-              6-month or 12-month program.
-              <br />
-              You are guaranteed to reduce your medication procurement costs
-              with our program. <br />
-              The medications are assured to arrive at your door just before you
-              really need them. <br />
-              Medsaf Assure helps you get back to giving great patient care!
+              Assure. Pick your medications and quantities and pay now to lock
+              in your spot in this special program. <br />
+              You can sign up for 3-month, 6-month or 12-month programs.
+              <br /> Medsaf Assure helps you get back to giving great patient
+              care
             </p>
             <Link
               to="/offerings/MedsafAssureProgram"
@@ -196,15 +198,15 @@ const Offerings = () => {
             <div className="m-landing-section2-ttl-shadow">Patient Direct</div>
             <h4 className="m-landing-section2-ttl">Patient Direct</h4>
             <p className="m-landing-section2-txt m-offerings-section2-txt">
-              Medsaf partners with the hospitals that take Quality with the
-              utmost importance.
+              Medsaf works with our network of doctors to verify your
+              prescription and source the highest quality chronic illness
+              medications for their patients.
               <br />
-              The Medsaf Platinum Partners Program is a specially curated and
-              tailored program where we handle all of your procurement needs.
+              We work on negotiating prices and offering them at wholesale
+              prices so that you and your loved ones can afford to have the very
+              best care possible.
               <br />
-              You work with your own dedicated Medsaf procurement team member
-              and we make the entire process of purchasing medications and
-              analyzing prices seamless and cost effective.
+              Please fill out the form for more information
             </p>
             <Link to="/offerings/PatientDirectProgram">
               <button className="m-landing-hero-btn center-btntxt">
