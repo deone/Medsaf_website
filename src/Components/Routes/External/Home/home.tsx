@@ -34,11 +34,10 @@ import blog2 from "../../../../assets/blog2.png";
 import blog3 from "../../../../assets/blog3.png";
 import blog4 from "../../../../assets/blog4.png";
 
-
 const Home = () => {
   React.useEffect(() => {
-    window.scrollTo(-0,-0);
-}, [])
+    window.scrollTo(-0, -0);
+  }, []);
   return (
     <>
       <div className="m-landing">
@@ -50,17 +49,21 @@ const Home = () => {
             <h1>
               Quality <span> medication</span> is a fundamental human right
             </h1>
-            <a target="_blank" href="https://shop.medsaf.com/"><button className="m-landing-hero-btn bigger-btn">
-              {" "}
-              <img src={cart} alt="shopping cart" />
-              Shop now
-            </button></a>
+            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">
+              <button className="m-landing-hero-btn bigger-btn">
+                {" "}
+                <img src={cart} alt="shopping cart" />
+                Shop now
+              </button>
+            </a>
           </div>
           <div className="m-landing-hero-img">
             <img src={heroImg} alt="" />
           </div>
           <img className="m-landing-hero-img-mobile" src={heroImgMobile} />
         </div>
+      </div>
+      <div className="m-offwhite">
         <div className="m-landing-section2 appContainer">
           <div className="m-landing-section2-ttl-shadow">Our partners</div>
           <h4 className="m-landing-section2-ttl">
@@ -112,9 +115,11 @@ const Home = () => {
                     hours depending on location. Medsaf ships countrywide.
                   </p>
                 </div>
-                <a target="_blank" href="https://shop.medsaf.com/"><button className="m-landing-section3-offers-btn m-landing-section3-offers-btn-1">
-                  Shop now <img src={caretRight} alt="" />
-                </button></a>
+                <a target="_blank" href="/offerings/#marketplace">
+                  <button className="m-landing-section3-offers-btn m-landing-section3-offers-btn-1">
+                    Read more <img src={caretRight} alt="" />
+                  </button>
+                </a>
                 <img className="m-landing-section3-offers-img" src={delivery} />
               </div>
             </div>
@@ -141,9 +146,11 @@ const Home = () => {
                     effective.
                   </p>
                 </div>
-                <a href="/offerings/#platinum"><button className="m-landing-section3-offers-btn">
-                  Sign up
-                </button></a>
+                <a href="/offerings/#platinum">
+                  <button className="m-landing-section3-offers-btn">
+                    Read more
+                  </button>
+                </a>
               </div>
             </div>
             <div>
@@ -166,9 +173,11 @@ const Home = () => {
                     diagnostic center.
                   </p>
                 </div>
-                <a href="/offerings/#consumables"><button className="m-landing-section3-offers-btn">
-                  Sign up
-                </button></a>
+                <a href="/offerings/#consumables">
+                  <button className="m-landing-section3-offers-btn">
+                    Read more
+                  </button>
+                </a>
               </div>
             </div>
             <div>
@@ -189,15 +198,17 @@ const Home = () => {
                     needs.
                     <br />
                     We won’t let you stock out of crucial medications with
-                    Medsaf Assure. Pick your medications and quantities, sign up
+                    Medsaf Assure. Pick your medications and quantities, Read more
                     for the 3-month, 6-month or 12-month program.
                     <br /> Medsaf Assure helps you get back to giving great
                     patient care!
                   </p>
                 </div>
-                <a href="/offerings/#assure"><button className="m-landing-section3-offers-btn">
-                  Sign up
-                </button></a>
+                <a href="/offerings/#assure">
+                  <button className="m-landing-section3-offers-btn">
+                    Read more
+                  </button>
+                </a>
               </div>
             </div>
             <div>
@@ -220,9 +231,11 @@ const Home = () => {
                     Please inquire for more information.
                   </p>
                 </div>
-                <a href="/offerings/#patientDirect"><button className="m-landing-section3-offers-btn">
-                  Sign up
-                </button></a>
+                <a href="/offerings/#patientDirect">
+                  <button className="m-landing-section3-offers-btn">
+                    Read more
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -247,11 +260,13 @@ const Home = () => {
               increase access, affordability and quality of medications
               dispensed.
             </p>
-            <a target="_blank" href="https://shop.medsaf.com/"><button className="m-landing-hero-btn">
-              {" "}
-              <img src={cart} alt="shopping cart" />
-              Shop now
-            </button></a>
+            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">
+              <button className="m-landing-hero-btn">
+                {" "}
+                <img src={cart} alt="shopping cart" />
+                Shop now
+              </button>
+            </a>
           </div>
         </div>
         {/* <div className="m-landing"> */}
@@ -299,6 +314,7 @@ const Home = () => {
             </h4>
             <div className="m-landing-section6-grid">
               <div className="m-landing-section6-grid-1">
+                <a href="https://www.youtube.com/watch?v=H2fjAOY8ch8">
                 <div className="m-landing-section6-grid-item">
                   <img
                     className="m-landing-section6-grid-item-img"
@@ -306,15 +322,20 @@ const Home = () => {
                   />
                   <div>
                     <h6 className="m-landing-section6-grid-item-ttl">
-                    Medsaf Reuters Interview
+                      Medsaf Reuters Interview
                     </h6>
-                    <a className="m-landing-section6-grid-item-link" href="https://www.youtube.com/watch?v=H2fjAOY8ch8">
+                    <p
+                      className="m-landing-section6-grid-item-link"
+                      
+                    >
                       youtube.com/reuters
-                    </a>
+                    </p>
                   </div>
                 </div>
+                </a>
               </div>
               <div className="m-landing-section6-grid-2">
+              <a href="https://www.youtube.com/watch?v=Fblb9F8ql4Q">
                 <div className="m-landing-section6-grid-item">
                   <img
                     className="m-landing-section6-grid-item-img"
@@ -322,15 +343,20 @@ const Home = () => {
                   />
                   <div>
                     <h6 className="m-landing-section6-grid-item-ttl">
-                    BBC - Solving The Problem of Fake Drugs in Nigeria
+                      BBC - Solving The Problem of Fake Drugs in Nigeria
                     </h6>
-                    <a className="m-landing-section6-grid-item-link" href="https://www.youtube.com/watch?v=Fblb9F8ql4Q">
+                    <p
+                      className="m-landing-section6-grid-item-link"
+                      
+                    >
                       youtube.com/bbc
-                    </a>
+                    </p>
                   </div>
                 </div>
+                </a>
               </div>
               <div className="m-landing-section6-grid-3">
+                <a href="https://www.france24.com/en/20200115-africa-struggles-to-stem-deadly-flood-of-fake-medicine">
                 <div className="m-landing-section6-grid-item">
                   <img
                     className="m-landing-section6-grid-item-img"
@@ -338,15 +364,20 @@ const Home = () => {
                   />
                   <div>
                     <h6 className="m-landing-section6-grid-item-ttl">
-                    Africa Struggles to Stem Deadly Flood of Fake Medicine
+                      Africa Struggles to Stem Deadly Flood of Fake Medicine
                     </h6>
-                    <a className="m-landing-section6-grid-item-link" href="https://www.france24.com/en/20200115-africa-struggles-to-stem-deadly-flood-of-fake-medicine">
-                    frace24.com
-                    </a>
+                    <p
+                      className="m-landing-section6-grid-item-link"
+                      
+                    >
+                      france24.com
+                    </p>
                   </div>
                 </div>
+                </a>
               </div>
               <div className="m-landing-section6-grid-4">
+                <a  href="https://womenafrica.com/five-nigerian-women-are-on-list-of-forbes-woman-africas-new-wealth-creators/">
                 <div className="m-landing-section6-grid-item">
                   <img
                     className="m-landing-section6-grid-item-img"
@@ -354,19 +385,23 @@ const Home = () => {
                   />
                   <div>
                     <h6 className="m-landing-section6-grid-item-ttl">
-                    Forbes - Africa's New Wealth Creator
+                      Forbes - Africa's New Wealth Creator
                     </h6>
-                    <a className="m-landing-section6-grid-item-link" href="https://womenafrica.com/five-nigerian-women-are-on-list-of-forbes-woman-africas-new-wealth-creators/">
+                    <p
+                      className="m-landing-section6-grid-item-link"
+                     
+                    >
                       womenafrica.com
-                    </a>
+                    </p>
                   </div>
                 </div>
+                </a>
               </div>
             </div>
           </div>
         </div>
 
-{/* Financial Times Medsaf Interview - https://www.ft.com/content/ea9cbd66-c8c3-11e9-af46-b09e8bfe60c0 */}
+        {/* Financial Times Medsaf Interview - https://www.ft.com/content/ea9cbd66-c8c3-11e9-af46-b09e8bfe60c0 */}
 
         <div className="m-landing-section7 appContainer">
           <div className="m-landing-section7-sec">
@@ -374,11 +409,13 @@ const Home = () => {
               Your one stop shop for the highest quality medications and
               consumables
             </h6>
-            <a target="_blank" href="https://shop.medsaf.com/"><button className="m-landing-hero-btn m-landing-section7-btn">
-              {" "}
-              <img src={cartGreen} alt="shopping cart" />
-              Shop now
-            </button></a>
+            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">
+              <button className="m-landing-hero-btn m-landing-section7-btn">
+                {" "}
+                <img src={cartGreen} alt="shopping cart" />
+                Shop now
+              </button>
+            </a>
             <img
               className="m-landing-section7-sec-img1"
               src={logoTransparent}

@@ -6,6 +6,8 @@ import twitter from "../../../assets/icons/twitterWhite.svg";
 import instagram from "../../../assets/icons/instagramWhite.svg";
 import youtube from "../../../assets/icons/youtubeWhite.svg";
 import { Link } from "react-router-dom";
+import whatsapp from "../../../assets/icons/whatsappWhite.png";
+
 
 const Footer = () => {
   let date = new Date().getFullYear();
@@ -44,10 +46,10 @@ const Footer = () => {
                 <Link to="/offerings">What we offer</Link>
               </li>
               <li>
-                <Link to="/">Sign up</Link>
+                <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">Sign up</a>
               </li>
               <li>
-                <Link to="/">Sign in</Link>
+                <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">Log in</a>
               </li>
             </ul>
           </div>
@@ -61,7 +63,7 @@ const Footer = () => {
                 <Link to="/">Platinum Partners Program</Link>
               </li>
               <li>
-                <Link to="/">Consumers</Link>
+                <Link to="/">Consumables</Link>
               </li>
               <li>
               <a href="/offerings/#assure">MEDSAF Assure Program</a>
@@ -81,13 +83,19 @@ const Footer = () => {
                 55 Sir Tony Eromosele Street, Ikoyi, Lagos, Nigeria
               </p>
             </address>
-            <a className="m-footer-grid-3-link" href="tel: +234 801 2345 678">
-              +234 801 2345 678
+            <a target="_blank" className="m-footer-grid-3-link" href="https://api.whatsapp.com/send?phone=2347034124566">
+              <img src={whatsapp} alt="whatsapp" />
+              +234 703 412 4566
+            </a>
+            <a target="_blank" className="m-footer-grid-3-link" href="https://api.whatsapp.com/send?phone=2349019987862">
+              <img src={whatsapp} alt="whatsapp" />
+              +234 901 998 7862
             </a>
             <a
               className="m-footer-grid-3-link"
               href="mailto: contact@medsaf.com"
             >
+              {/* <img src={twitter} /> */}
               contact@medsaf.com
             </a>
           </div>

@@ -76,13 +76,18 @@
 .m-footer-grid-3-link{
     font-size: 14px;
     color: #FFD166;
-    display: block;
+    display: flex;
     line-height: 26px;
+    align-items: center;
 }
 .m-footer-grid-3-link:hover {
     color: #FFD166;
     transform: scale(1.05);
     text-decoration: none;
+}
+.m-footer-grid-3-link img {
+    width: 15px;
+    margin-right: 10px;
 }
 .m-footer hr {
     margin: 2.5rem 0 1rem;

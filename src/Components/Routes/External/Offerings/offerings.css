@@ -1,7 +1,7 @@
 .m-offerings {
     background: linear-gradient(
 180deg
-, #E9F7FE 0%, rgba(233, 247, 254, 0) 108.89%);
+, #E9F7FE 0%, rgba(233, 247, 254, 0) 150%);
 }
 .m-offerings-hero {
     display: flex;

@@ -44,10 +44,10 @@ const NavBar = (props: any) => {
               What we offer
             </div></a>
             <div className="m-nav-dvd"></div>
-            <div className="m-nav-link m-nav-link-pry" role="button">
+            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><div className="m-nav-link m-nav-link-pry" role="button">
               Login
-            </div>
-            <button className="m-nav-btn">Sign up</button>
+            </div></a>
+            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><button className="m-nav-btn">Sign up</button></a>
           </nav>
         </div>
         <div className="m-nav-mobile appContainer">
@@ -102,8 +102,8 @@ const NavBar = (props: any) => {
               <a className={props.offerings ? "m-nav-link-white m-nav-link-active" : "m-nav-link-white"} href="/#offerings">
                 What we offer
               </a>,
-              <button className="m-nav-btn m-nav-btn1">Login</button>,
-              <button className="m-nav-btn">Sign up</button>,
+              <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><button className="m-nav-btn m-nav-btn1">Login</button></a>,
+              <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><button className="m-nav-btn">Sign up</button></a>,
               <div className="m-nav-socials">
                 <img src={instagram} alt="instagram" />
                 <img src={twitter} alt="twitter" />
