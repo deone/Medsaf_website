@@ -47,7 +47,7 @@ const NavBar = (props: any) => {
             <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><div className="m-nav-link m-nav-link-pry" role="button">
               Login
             </div></a>
-            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><button className="m-nav-btn">Sign up</button></a>
+            <a target="_blank" href="https://shop.medsaf.com/web/signup?redirect=%2Fshop"><button className="m-nav-btn">Sign up</button></a>
           </nav>
         </div>
         <div className="m-nav-mobile appContainer">
@@ -103,7 +103,7 @@ const NavBar = (props: any) => {
                 What we offer
               </a>,
               <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><button className="m-nav-btn m-nav-btn1">Login</button></a>,
-              <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><button className="m-nav-btn">Sign up</button></a>,
+              <a target="_blank" href="https://shop.medsaf.com/web/signup?redirect=%2Fshop"><button className="m-nav-btn">Sign up</button></a>,
               <div className="m-nav-socials">
                 <img src={instagram} alt="instagram" />
                 <img src={twitter} alt="twitter" />

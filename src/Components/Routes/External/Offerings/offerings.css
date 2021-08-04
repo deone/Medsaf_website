@@ -16,6 +16,9 @@
     width: 50%;
     flex: 50%;
 }
+.m-offerings a {
+    cursor: pointer;
+}
 .m-offerings-hero-img img {
     width: 100%;
 }

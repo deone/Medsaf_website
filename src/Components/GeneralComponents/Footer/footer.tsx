@@ -48,7 +48,7 @@ const Footer = () => {
                 <Link to="/offerings">What we offer</Link>
               </li>
               <li>
-                <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">Sign up</a>
+                <a target="_blank" href="https://shop.medsaf.com/web/signup?redirect=%2Fshop">Sign up</a>
               </li>
               <li>
                 <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">Log in</a>
@@ -62,10 +62,10 @@ const Footer = () => {
               <a target="_blank" href="https://shop.medsaf.com/">Marketplace</a>
               </li>
               <li>
-                <Link to="/">Platinum Partners Program</Link>
+              <a href="/offerings/#platinum">Platinum Partners Program</a>
               </li>
               <li>
-                <Link to="/">Consumables</Link>
+              <a href="/offerings/#consumables">Consumables</a>
               </li>
               <li>
               <a href="/offerings/#assure">MEDSAF Assure Program</a>

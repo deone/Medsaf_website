@@ -107,12 +107,13 @@ const Offerings = () => {
               and we make the entire process of purchasing medications and
               analyzing prices seamless and cost effective
             </p>
+            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">
             <button
-              className="m-landing-hero-btn center-btntxt btn-disabled"
+              className="m-landing-hero-btn center-btntxt"
               disabled
             >
               Sign up
-            </button>
+            </button></a>
           </div>
         </div>
         <div
@@ -141,12 +142,12 @@ const Offerings = () => {
               Please check out our new Covid-19 diagnostic consumables at the
               best prices in the market.
             </p>
-            <button
-              className="m-landing-hero-btn center-btntxt btn-disabled"
+            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><button
+              className="m-landing-hero-btn center-btntxt"
               disabled
             >
               Sign up
-            </button>
+            </button></a>
           </div>
         </div>
         <div
