@@ -98,37 +98,38 @@
     align-items: center;
     justify-content: space-between;
     margin: 3rem 0;
-    justify-content: space-between;
-    margin: 3rem 0;
-    overflow: hidden;
-    overflow-x: auto;
     width: 100%;
 }
-.m-landing-section2-partners img {
-    margin-right: 3rem;
+.m-landing-section2-partners li {
+    display: flex;
+    justify-content: center;
 }
-.m-landing-section2-partners img:nth-child(1) {
+.m-landing-section2-partners img {
+    /* margin-right: 2rem;
+    margin-left: 1rem; */
+}
+.m-landing-section2-partners-img1 {
     width: 120px;
 }
-.m-landing-section2-partners img:nth-child(2) {
+.m-landing-section2-partners-img2 {
     width: 60px;
 }
-.m-landing-section2-partners img:nth-child(3) {
+.m-landing-section2-partners-img3 {
     width: 90px;
 }
-.m-landing-section2-partners img:nth-child(4) {
+.m-landing-section2-partners-img4 {
     width: 130px;
 }
-.m-landing-section2-partners img:nth-child(5) {
-    width: 50px;
+.m-landing-section2-partners-img5 {
+    width: 60px;
 }
-.m-landing-section2-partners img:nth-child(6) {
+.m-landing-section2-partners-img6 {
     width: 120px;
 }
-.m-landing-section2-partners img:nth-child(7) {
+.m-landing-section2-partners-img7 {
     width: 150px;
 }
-.m-landing-section2-partners img:nth-child(8) {
+.m-landing-section2-partners-img8 {
     width: 55px;
 }
 .m-landing-section3 {
@@ -427,6 +428,27 @@
 }
 
 @media(max-width: 1000px) {
+    .m-landing-section2-partners-img1 {
+        width: 100px;
+    }
+    .m-landing-section2-partners-img2 {
+        width: 60px;
+    }
+    .m-landing-section2-partners-img3 {
+        width: 85px;
+    }
+    .m-landing-section2-partners-img4 {
+        width: 120px;
+    }
+    .m-landing-section2-partners-img5 {
+        width: 60px;
+    }
+    .m-landing-section2-partners-img6 {
+        width: 100px;
+    }
+    .m-landing-section2-partners-img7 {
+        width: 120px;
+    }
     .m-landing-section3-offer-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -571,7 +593,7 @@
         padding-bottom: 2rem;
     }
     .m-landing-section2-ttl-shadow {
-        display: none;
+        /* display: none; */
     }
     .m-landing-section6 .m-landing-section2-ttl {
         text-align: center;
@@ -622,4 +644,7 @@
     .m-landing-section3-offer-grid-1 {
         grid-column-end: 2;
     }
+}
+.react-multi-carousel-track {
+    align-items: center;
 }

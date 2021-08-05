@@ -33,6 +33,31 @@ import Socials from "../../../GeneralComponents/DesktopSocials/socials";
 import blog2 from "../../../../assets/blog2.png";
 import blog3 from "../../../../assets/blog3.png";
 import blog4 from "../../../../assets/blog4.png";
+import "react-multi-carousel/lib/styles.css";
+import Carousel from "react-multi-carousel";
+
+const responsive = {
+  desktop: {
+    breakpoint: { max: 4000, min: 1300 },
+    items: 7,
+  },
+  tablet: {
+    breakpoint: { max: 1300, min: 1000 },
+    items: 5,
+  },
+  smalltablet: {
+    breakpoint: { max: 1000, min: 800 },
+    items: 4,
+  },
+  mobile: {
+    breakpoint: { max: 800, min: 400 },
+    items: 3,
+  },
+  mini: {
+    breakpoint: { max: 400, min: 0 },
+    items: 2,
+  },
+};
 
 const Home = () => {
   React.useEffect(() => {
@@ -74,16 +99,27 @@ const Home = () => {
             Africa. We work and support only the best pharmaceutical partners
             that pass our 7 layer quality control vetting process.
           </p>
-          <div className="m-landing-section2-partners">
-            <img src={gsk} alt="" />
-            <img src={roche} alt="" />
-            <img src={swipha} alt="" />
-            <img src={astrazeneca} alt="" />
-            <img src={sanofi} alt="" />
-            <img src={merck} alt="" />
-            <img src={novartis} alt="" />
-            {/* <img src={vedic} alt="" /> */}
-          </div>
+          <Carousel
+            responsive={responsive}
+            containerClass="m-landing-section2-partners"
+            focusOnSelect={true}
+            swipeable={true}
+            draggable={true}
+            keyBoardControl={true}
+            transitionDuration={500}
+            infinite={true}
+            autoPlay={true}
+            autoPlaySpeed={1000}
+            removeArrowOnDeviceType={["mini", "mobile", "smalltablet", "tablet", "desktop",]}
+          >
+            <img className="m-landing-section2-partners-img1" src={gsk} alt="partner logo" />
+            <img className="m-landing-section2-partners-img2" src={roche} alt="partner logo" />
+            <img className="m-landing-section2-partners-img3" src={swipha} alt="partner logo" />
+            <img className="m-landing-section2-partners-img4" src={astrazeneca} alt="partner logo" />
+            <img className="m-landing-section2-partners-img5" src={sanofi} alt="partner logo" />
+            <img className="m-landing-section2-partners-img6" src={merck} alt="partner logo" />
+            <img className="m-landing-section2-partners-img7" src={novartis} alt="partner logo" />
+          </Carousel>
         </div>
         <div className="m-landing-section3 appContainer" id="offerings">
           <h4 className="m-landing-section2-ttl">
