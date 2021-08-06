@@ -1,93 +1,3 @@
-@font-face {
-  font-family: 'Avenir Next';
-  src: url('./Fonts/AvenirNextLight/Metropolis-Thin.otf');
-  src: local('./Fonts/AvenirNextLight/Metropolis-Thin.otf'), local('Metropolis-Thin'),
-      url('./Fonts/AvenirNextLight/Metropolis-Thin.otf') format('opentype');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Avenir Next';
-  src: url('./Fonts/AvenirNextLight/Metropolis-Regular.otf');
-  src: local('./Fonts/AvenirNextLight/Metropolis-Regular.otf'), local('Metropolis-Regular'),
-      url('./Fonts/AvenirNextLight/Metropolis-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Avenir Next';
-  src: url('./Fonts/AvenirNextLight/Metropolis-Medium.otf');
-  src: local('./Fonts/AvenirNextLight/Metropolis-Medium.otf'), local('Metropolis-Medium'),
-      url('./Fonts/AvenirNextLight/Metropolis-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Avenir Next';
-  src: url('./Fonts/AvenirNextLight/Metropolis-Light.otf');
-  src: local('./Fonts/AvenirNextLight/Metropolis-Light.otf'), local('Metropolis-Light'),
-      url('./Fonts/AvenirNextLight/Metropolis-Light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Avenir Next';
-  src: url('./Fonts/AvenirNextLight/Metropolis-ExtraLight.otf');
-  src: local('./Fonts/AvenirNextLight/Metropolis-ExtraLight.otf'), local('Metropolis-ExtraLight'),
-      url('./Fonts/AvenirNextLight/Metropolis-ExtraLight.otf') format('opentype');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Avenir Next';
-  src: url('./Fonts/AvenirNextLight/Metropolis-SemiBold.otf');
-  src: local('./Fonts/AvenirNextLight/Metropolis-SemiBold.otf'), local('Metropolis-SemiBold'),
-      url('./Fonts/AvenirNextLight/Metropolis-SemiBold.otf') format('opentype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Avenir Next';
-  src: url('./Fonts/AvenirNextLight/Metropolis-Bold.otf');
-  src: local('./Fonts/AvenirNextLight/Metropolis-Bold.otf'), local('Metropolis-Bold'),
-      url('./Fonts/AvenirNextLight/Metropolis-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Avenir Next';
-  src: url('./Fonts/AvenirNextLight/Metropolis-ExtraBold.otf');
-  src: local('./Fonts/AvenirNextLight/Metropolis-ExtraBold.otf'), local('Metropolis-ExtraBold'),
-      url('./Fonts/AvenirNextLight/Metropolis-ExtraBold.otf') format('opentype');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Avenir Next';
-  src: url('./Fonts/AvenirNextLight/Metropolis-Black.otf');
-  src: local('./Fonts/AvenirNextLight/Metropolis-Black.otf'), local('Metropolis-Black'),
-      url('./Fonts/AvenirNextLight/Metropolis-Black.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
 * {
   box-sizing: border-box;
   transition: 0.3s;
@@ -102,7 +12,7 @@ html body {
   scroll-behavior: smooth;
   height: 100%;
   transition: 0.3s;
-  font-family: 'Avenir Next';
+  font-family: 'Inter';
   font-weight: 400;
   font-display: swap;
 }

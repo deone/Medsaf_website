@@ -71,7 +71,7 @@ const Offerings = () => {
               <br /> Your medications arrive within 48-72 hours depending on
               location. Medsaf ships countrywide.
             </p>
-            <a target="_blank" href="https://shop.medsaf.com/">
+            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">
               <button className="m-landing-hero-btn">
                 {" "}
                 <img src={cart} alt="shopping cart" />

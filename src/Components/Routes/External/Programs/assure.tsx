@@ -6,8 +6,10 @@ import facebook from "../../../../assets/icons/facebookBlue.svg";
 import twitter from "../../../../assets/icons/twitterBlue.svg";
 import instagram from "../../../../assets/icons/instagramBlue.svg";
 import youtube from "../../../../assets/icons/youtubeBlue.svg";
+import { Link } from "react-router-dom";
 
 const Assure = () => {
+
   return (
     <>
       <div className="m-programs">
@@ -19,7 +21,7 @@ const Assure = () => {
               {/* <div id="ff-compose1"></div> */}
               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSctoeURWAvTeTT2CdBZ-yTyOQbyHSK_KrAcPmHPLWlxAqg89g/viewform?embedded=true" width="100%" height="800" frameBorder="0" marginHeight={0} marginWidth={0}>Loading…</iframe>
             </div>
-            <button className="m-waitlist-payment-btn">Proceed to payment</button>
+            {/* <Link to="/offerings/MedsafAssureProgram/payment"><button className="m-waitlist-payment-btn">Continue to payment</button></Link> */}
           </div>
           <div className="m-programs-socials">
                 <a target="_blank" href="https://facebook.com/medsafcom"><img src={facebook} alt="facebook" /></a>
