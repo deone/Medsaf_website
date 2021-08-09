@@ -3,11 +3,6 @@
     font-size: 14px;
     color: #4E5D78;
 }
-/* .m-waitlist .freebirdFormviewerViewEmbedded .freebirdFormviewerViewCenteredContent{
-    width: 100% !important;
-    margin: 0;
-    max-width: 100% !important;
-} */
 ::-webkit-scrollbar {
     width: 5px;
     height: 0px;
@@ -33,7 +28,9 @@
     /* padding: 1rem; */
 }
 .m-waitlist-form iframe {
-    /* height: calc(100vh - 310px) !important; */
+    height: calc(100vh - 310px) !important;
+}
+.m-waitlist-form-nopayment iframe {
     height: calc(100vh - 260px) !important;
 }
 .m-programs-txt {
@@ -61,7 +58,25 @@
     border: none;
     border-radius: 10px;
 }
-
+.m-waitlist-modal .modal-body {
+    padding: 1rem 2rem;
+}
+.m-waitlist-modal select {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 1rem 0;
+}
+.m-waitlist-modal button {
+    width: 100%;
+    height: 44px;
+    color: #fff;
+    background: #33869D;
+    border: none;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
 @media ( max-width: 800px) {
     .m-waitlist-formsec {
         padding: 1rem;
@@ -73,7 +88,9 @@
         margin: 1rem auto;
     }
     .m-waitlist-form iframe {
-        /* height: calc(100vh - 283px) !important; */
+        height: calc(100vh - 283px) !important;
+    }
+    .m-waitlist-form-nopayment iframe {
         height: calc(100vh - 233px) !important;
     }
 }
