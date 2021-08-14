@@ -105,10 +105,10 @@ const NavBar = (props: any) => {
               <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><button className="m-nav-btn m-nav-btn1">Login</button></a>,
               <a target="_blank" href="https://shop.medsaf.com/web/signup?redirect=%2Fshop"><button className="m-nav-btn">Sign up</button></a>,
               <div className="m-nav-socials">
-                <img src={instagram} alt="instagram" />
-                <img src={twitter} alt="twitter" />
-                <img src={facebook} alt="facebook" />
-                <img src={youtube} alt="youtube" />
+               <a target="_blank" href="https://instagram.com/medsafcom"><img src={instagram} alt="instagram" /></a>
+              <a target="_blank" href="https://twitter.com/MedsafCom"><img src={twitter} alt="twitter" /></a>
+                <a target="_blank" href="https://facebook.com/medsafcom"><img src={facebook} alt="facebook" /></a>
+                <a target="_blank" href="https://m.youtube.com/channel/UC_wYayI3FtdkXOJsdsM-T5g"><img src={youtube} alt="youtube" /></a>
               </div>,
             ]}
           />
