@@ -1,16 +1,11 @@
 {
-  "short_name": "SEMUnilag",
-  "name": "SEMUnilag",
+  "short_name": "Medsaf",
+  "name": "Medsaf Disrupt Website",
   "icons": [
     {
-      "src": "./teamlogo.png",
-      "type": "image/png",
-      "sizes": "30x9"
-    },
-    {
-      "src": "./teamlogo.png",
-      "type": "image/png",
-      "sizes": "30x9"
+      "src": "favicon.ico",
+      "sizes": "16x16 32x32 64x64",
+      "type": "image/x-icon"
     }
   ],
   "start_url": ".",
