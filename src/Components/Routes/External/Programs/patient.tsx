@@ -1,7 +1,6 @@
 import * as React from "react";
 import "./programs.css";
 import NavBar from "../../../GeneralComponents/Navbar/navbar";
-import arrow from "../../../../assets/icons/downArrow.svg";
 import facebook from "../../../../assets/icons/facebookBlue.svg";
 import twitter from "../../../../assets/icons/twitterBlue.svg";
 import instagram from "../../../../assets/icons/instagramBlue.svg";
@@ -21,10 +20,10 @@ const Patient = () => {
             {/* <button className="m-waitlist-payment-btn btn-disabled" disabled>Proceed to payment</button> */}
           </div>
           <div className="m-programs-socials">
-                <a target="_blank" href="https://facebook.com/medsafcom"><img src={facebook} alt="facebook" /></a>
-                <a target="_blank" href="https://twitter.com/medsafcom"><img src={twitter} alt="twitter" /></a>
-                <a target="_blank" href="https://instagram.com/medsafcom"><img src={instagram} alt="instagram" /></a>
-                <a target="_blank" href="https://m.youtube.com/channel/UC_wYayI3FtdkXOJsdsM-T5g"><img src={youtube} alt="youtube" /></a>
+                <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/medsafcom"><img src={facebook} alt="facebook" /></a>
+                <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/medsafcom"><img src={twitter} alt="twitter" /></a>
+                <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/medsafcom"><img src={instagram} alt="instagram" /></a>
+                <a rel="noopener noreferrer" target="_blank" href="https://m.youtube.com/channel/UC_wYayI3FtdkXOJsdsM-T5g"><img src={youtube} alt="youtube" /></a>
             </div>
         </div>
       </div>

@@ -48,10 +48,10 @@ const Offerings = () => {
           id="marketplace"
           className="m-landing-section4 m-offerings-section2 appContainer"
         >
-          <img className="m-landing-section4-img" src={sectionTwoImg} />
+          <img className="m-landing-section4-img" src={sectionTwoImg} alt="" />
           <img
             className="m-landing-section4-img-mobile"
-            src={sectionTwoImgMobile}
+            src={sectionTwoImgMobile}  alt=""
           />
           <div className="m-landing-section4-info">
             <div className="m-landing-section2-ttl-shadow">Marketplace</div>
@@ -71,7 +71,11 @@ const Offerings = () => {
               <br /> Your medications arrive within 48-72 hours depending on
               location. Medsaf ships countrywide.
             </p>
-            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://shop.medsaf.com/web/login?redirect=/shop"
+            >
               <button className="m-landing-hero-btn">
                 {" "}
                 <img src={cart} alt="shopping cart" />
@@ -84,10 +88,10 @@ const Offerings = () => {
           id="platinum"
           className="m-landing-section4 m-offerings-section3 appContainer"
         >
-          <img className="m-landing-section4-img" src={sectionThreeImg} />
+          <img className="m-landing-section4-img" src={sectionThreeImg} alt="" />
           <img
             className="m-landing-section4-img-mobile"
-            src={sectionThreeImgMobile}
+            src={sectionThreeImgMobile} alt=""
           />
           <div className="m-landing-section4-info">
             <div className="m-landing-section2-ttl-shadow">
@@ -107,23 +111,25 @@ const Offerings = () => {
               and we make the entire process of purchasing medications and
               analyzing prices seamless and cost effective
             </p>
-            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">
-            <button
-              className="m-landing-hero-btn center-btntxt"
-              
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://shop.medsaf.com/web/login?redirect=/shop"
             >
-              Sign up
-            </button></a>
+              <button className="m-landing-hero-btn center-btntxt">
+                Sign up
+              </button>
+            </a>
           </div>
         </div>
         <div
           id="consumables"
           className="m-landing-section4 m-offerings-section4 appContainer"
         >
-          <img className="m-landing-section4-img" src={sectionFourImg} />
+          <img className="m-landing-section4-img" src={sectionFourImg} alt="" />
           <img
             className="m-landing-section4-img-mobile"
-            src={sectionFourImgMobile}
+            src={sectionFourImgMobile} alt=""
           />
           <div className="m-landing-section4-info">
             <div className="m-landing-section2-ttl-shadow">Consumables</div>
@@ -142,22 +148,25 @@ const Offerings = () => {
               Please check out our new Covid-19 diagnostic consumables at the
               best prices in the market.
             </p>
-            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><button
-              className="m-landing-hero-btn center-btntxt"
-              
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://shop.medsaf.com/web/login?redirect=/shop"
             >
-              Sign up
-            </button></a>
+              <button className="m-landing-hero-btn center-btntxt">
+                Sign up
+              </button>
+            </a>
           </div>
         </div>
         <div
           id="assure"
           className="m-landing-section4 m-offerings-section5 appContainer"
         >
-          <img className="m-landing-section4-img" src={sectionFiveImg} />
+          <img className="m-landing-section4-img" src={sectionFiveImg} alt="" />
           <img
             className="m-landing-section4-img-mobile"
-            src={sectionFiveImgMobile}
+            src={sectionFiveImgMobile} alt=""
           />
           <div className="m-landing-section4-info">
             <div className="m-landing-section2-ttl-shadow">
@@ -190,10 +199,11 @@ const Offerings = () => {
           id="patientDirect"
           className="m-landing-section4 m-offerings-section6 appContainer"
         >
-          <img className="m-landing-section4-img" src={sectionSixImg} />
+          <img className="m-landing-section4-img" src={sectionSixImg} alt="" />
           <img
             className="m-landing-section4-img-mobile"
             src={sectionSixImgMobile}
+            alt=""
           />
           <div className="m-landing-section4-info">
             <div className="m-landing-section2-ttl-shadow">Patient Direct</div>

@@ -11,10 +11,10 @@ const Socials = () => {
         <>
         <div className="m-landing-hero-socials">
                 <img className="m-landing-hero-socials-arrow" src={arrow} alt="" />
-                <a target="_blank" href="https://facebook.com/medsafcom"><img className="m-landing-hero-socials-icon" src={facebook} alt="" /></a>
-                <a target="_blank" href="https://twitter.com/MedsafCom"><img className="m-landing-hero-socials-icon" src={twitter} alt="" /></a>
-                <a target="_blank" href="https://instagram.com/medsafcom"><img className="m-landing-hero-socials-icon" src={instagram} alt="" /></a>
-                <a target="_blank" href="https://m.youtube.com/channel/UC_wYayI3FtdkXOJsdsM-T5g"><img className="m-landing-hero-socials-icon" src={youtube} alt="" /></a>
+                <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/medsafcom"><img className="m-landing-hero-socials-icon" src={facebook} alt="" /></a>
+                <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/MedsafCom"><img className="m-landing-hero-socials-icon" src={twitter} alt="" /></a>
+                <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/medsafcom"><img className="m-landing-hero-socials-icon" src={instagram} alt="" /></a>
+                <a rel="noopener noreferrer" target="_blank" href="https://m.youtube.com/channel/UC_wYayI3FtdkXOJsdsM-T5g"><img className="m-landing-hero-socials-icon" src={youtube} alt="" /></a>
             </div>
         </>
     )

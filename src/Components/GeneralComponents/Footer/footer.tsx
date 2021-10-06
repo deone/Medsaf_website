@@ -31,10 +31,10 @@ const Footer = () => {
                 Socials
               </p>
               <div className="m-footer-socials-icons">
-              <a target="_blank" href="https://facebook.com/medsafcom"><img src={facebook} alt="facebook" /></a>
-              <a target="_blank" href="https://twitter.com/medsafcom"><img src={twitter} alt="twitter" /></a>
-              <a target="_blank" href="https://instagram.com/medsafcom"><img src={instagram} alt="instagram" /></a>
-              <a target="_blank" href="https://m.youtube.com/channel/UC_wYayI3FtdkXOJsdsM-T5g"><img src={youtube} alt="youtube" /></a>
+              <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/medsafcom"><img src={facebook} alt="facebook" /></a>
+              <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/medsafcom"><img src={twitter} alt="twitter" /></a>
+              <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/medsafcom"><img src={instagram} alt="instagram" /></a>
+              <a rel="noopener noreferrer" target="_blank" href="https://m.youtube.com/channel/UC_wYayI3FtdkXOJsdsM-T5g"><img src={youtube} alt="youtube" /></a>
               </div>
             </div>
           </div>
@@ -48,10 +48,10 @@ const Footer = () => {
                 <Link to="/offerings">What we offer</Link>
               </li>
               <li>
-                <a target="_blank" href="https://shop.medsaf.com/web/signup?redirect=%2Fshop">Sign up</a>
+                <a rel="noopener noreferrer" target="_blank" href="https://shop.medsaf.com/web/signup?redirect=%2Fshop">Sign up</a>
               </li>
               <li>
-                <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">Log in</a>
+                <a rel="noopener noreferrer" target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">Log in</a>
               </li>
             </ul>
           </div>
@@ -59,7 +59,7 @@ const Footer = () => {
             <p className="m-footer-grid-item-hd">Offerings</p>
             <ul className="m-footer-grid-item-list">
               <li>
-              <a target="_blank" href="https://shop.medsaf.com/">Marketplace</a>
+              <a rel="noopener noreferrer" target="_blank" href="https://shop.medsaf.com/">Marketplace</a>
               </li>
               <li>
               <a href="/offerings/#platinum">Platinum Partners Program</a>
@@ -96,10 +96,10 @@ const Footer = () => {
             <div className="m-footer-numbers">
               <img src={whatsapp} alt="whatsapp" />
               <div>
-                <a target="_blank" className="m-footer-grid-3-link" href="https://api.whatsapp.com/send?phone=2347034124566">
+                <a rel="noopener noreferrer" target="_blank" className="m-footer-grid-3-link" href="https://api.whatsapp.com/send?phone=2347034124566">
                   +234 703 412 4566
                 </a>
-                <a target="_blank" className="m-footer-grid-3-link" href="https://api.whatsapp.com/send?phone=2349019987862">
+                <a rel="noopener noreferrer" target="_blank" className="m-footer-grid-3-link" href="https://api.whatsapp.com/send?phone=2349019987862">
                   +234 901 998 7862
                 </a>
               </div>

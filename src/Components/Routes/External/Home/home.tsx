@@ -10,7 +10,6 @@ import astrazeneca from "../../../../assets/partners/astrazeneca.svg";
 import sanofi from "../../../../assets/partners/sanofi.svg";
 import merck from "../../../../assets/partners/merck.svg";
 import novartis from "../../../../assets/partners/novartis.svg";
-import vedic from "../../../../assets/partners/vedic.png";
 import cartYellow from "../../../../assets/icons/cartYellow.svg";
 import partners from "../../../../assets/icons/threePeople.svg";
 import consumables from "../../../../assets/icons/consumables.svg";
@@ -19,7 +18,6 @@ import patient from "../../../../assets/icons/twoPeople.svg";
 import caretRight from "../../../../assets/icons/doubleCaretRightWhite.svg";
 import delivery from "../../../../assets/deliveryImg.png";
 import whyMedsaf from "../../../../assets/whyMedsaf.png";
-import video from "../../../../assets/videoPlaceholder.png";
 import blog from "../../../../assets/blog.png";
 import cartGreen from "../../../../assets/icons/cartGreen.svg";
 import logoTransparent from "../../../../assets/icons/medsafLogoTransparent.svg";
@@ -74,7 +72,11 @@ const Home = () => {
             <h1>
               Quality <span> medication</span> is a fundamental human right
             </h1>
-            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://shop.medsaf.com/web/login?redirect=/shop"
+            >
               <button className="m-landing-hero-btn bigger-btn">
                 {" "}
                 <img src={cart} alt="shopping cart" />
@@ -85,7 +87,11 @@ const Home = () => {
           <div className="m-landing-hero-img">
             <img src={heroImg} alt="" />
           </div>
-          <img className="m-landing-hero-img-mobile" src={heroImgMobile} />
+          <img
+            className="m-landing-hero-img-mobile"
+            src={heroImgMobile}
+            alt=""
+          />
         </div>
       </div>
       <div className="m-offwhite">
@@ -110,15 +116,49 @@ const Home = () => {
             infinite={true}
             autoPlay={true}
             autoPlaySpeed={1000}
-            removeArrowOnDeviceType={["mini", "mobile", "smalltablet", "tablet", "desktop",]}
+            removeArrowOnDeviceType={[
+              "mini",
+              "mobile",
+              "smalltablet",
+              "tablet",
+              "desktop",
+            ]}
           >
-            <img className="m-landing-section2-partners-img1" src={gsk} alt="partner logo" />
-            <img className="m-landing-section2-partners-img2" src={roche} alt="partner logo" />
-            <img className="m-landing-section2-partners-img3" src={swipha} alt="partner logo" />
-            <img className="m-landing-section2-partners-img4" src={astrazeneca} alt="partner logo" />
-            <img className="m-landing-section2-partners-img5" src={sanofi} alt="partner logo" />
-            <img className="m-landing-section2-partners-img6" src={merck} alt="partner logo" />
-            <img className="m-landing-section2-partners-img7" src={novartis} alt="partner logo" />
+            <img
+              className="m-landing-section2-partners-img1"
+              src={gsk}
+              alt="partner logo"
+            />
+            <img
+              className="m-landing-section2-partners-img2"
+              src={roche}
+              alt="partner logo"
+            />
+            <img
+              className="m-landing-section2-partners-img3"
+              src={swipha}
+              alt="partner logo"
+            />
+            <img
+              className="m-landing-section2-partners-img4"
+              src={astrazeneca}
+              alt="partner logo"
+            />
+            <img
+              className="m-landing-section2-partners-img5"
+              src={sanofi}
+              alt="partner logo"
+            />
+            <img
+              className="m-landing-section2-partners-img6"
+              src={merck}
+              alt="partner logo"
+            />
+            <img
+              className="m-landing-section2-partners-img7"
+              src={novartis}
+              alt="partner logo"
+            />
           </Carousel>
         </div>
         <div className="m-landing-section3 appContainer" id="offerings">
@@ -138,7 +178,8 @@ const Home = () => {
                   </div>
                   <h5 className="m-landing-section3-offers-ttl">Marketplace</h5>
                   <p className="m-landing-section3-offers-txt m-landing-section3-offers-txt-1">
-                  The right medication at the right price, within 48-72 hours countrywide delivery.
+                    The right medication at the right price, within 48-72 hours
+                    countrywide delivery.
                   </p>
                 </div>
                 <a href="/offerings/#marketplace">
@@ -146,7 +187,11 @@ const Home = () => {
                     Read more <img src={caretRight} alt="" />
                   </button>
                 </a>
-                <img className="m-landing-section3-offers-img" src={delivery} />
+                <img
+                  alt=""
+                  className="m-landing-section3-offers-img"
+                  src={delivery}
+                />
               </div>
             </div>
             <div>
@@ -159,7 +204,8 @@ const Home = () => {
                     Platinum Partners Program
                   </h5>
                   <p className="m-landing-section3-offers-txt">
-                  Tailored medication concierge service for the highest quality hospitals and clinics in Nigeria.
+                    Tailored medication concierge service for the highest
+                    quality hospitals and clinics in Nigeria.
                   </p>
                 </div>
                 <a href="/offerings/#platinum">
@@ -177,7 +223,8 @@ const Home = () => {
                   </div>
                   <h5 className="m-landing-section3-offers-ttl">Consumables</h5>
                   <p className="m-landing-section3-offers-txt">
-                  High-quality cost-effective consumables sourced worldwide. Covid-19 diagnostic consumables and more.
+                    High-quality cost-effective consumables sourced worldwide.
+                    Covid-19 diagnostic consumables and more.
                   </p>
                 </div>
                 <a href="/offerings/#consumables">
@@ -197,7 +244,8 @@ const Home = () => {
                     MEDSAF Assure Program
                   </h5>
                   <p className="m-landing-section3-offers-txt">
-                  Lock in your most important medications at the lowest prices for up to 1 year! Massive cost savings and peace of mind.
+                    Lock in your most important medications at the lowest prices
+                    for up to 1 year! Massive cost savings and peace of mind.
                   </p>
                 </div>
                 <a href="/offerings/#assure">
@@ -217,7 +265,8 @@ const Home = () => {
                     Patient Direct
                   </h5>
                   <p className="m-landing-section3-offers-txt">
-                  Take the power back and ensure you and your loved ones have access to safe and consistent medications.
+                    Take the power back and ensure you and your loved ones have
+                    access to safe and consistent medications.
                   </p>
                 </div>
                 <a href="/offerings/#patientDirect">
@@ -231,10 +280,10 @@ const Home = () => {
         </div>
         {/* </div> */}
         <div className="m-landing-section4 appContainer">
-          <img className="m-landing-section4-img" src={whyMedsaf} />
+          <img alt="" className="m-landing-section4-img" src={whyMedsaf} />
           <img
             className="m-landing-section4-img-mobile"
-            src={whyMedsafMobile}
+            src={whyMedsafMobile} alt=""
           />
           <div className="m-landing-section4-info">
             <div className="m-landing-section2-ttl-shadow">
@@ -249,7 +298,11 @@ const Home = () => {
               increase access, affordability and quality of medications
               dispensed.
             </p>
-            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://shop.medsaf.com/web/login?redirect=/shop"
+            >
               <button className="m-landing-hero-btn">
                 {" "}
                 <img src={cart} alt="shopping cart" />
@@ -303,102 +356,111 @@ const Home = () => {
             </h4>
             <div className="m-landing-section6-grid">
               <div className="m-landing-section6-grid-1">
-                <a href="https://www.youtube.com/watch?v=H2fjAOY8ch8">
-                <div className="m-landing-section6-grid-item">
-                  <img
-                    className="m-landing-section6-grid-item-img"
-                    src={blog3}
-                  />
-                  <div>
-                    <h6 className="m-landing-section6-grid-item-ttl">
-                      Medsaf Reuters Interview
-                    </h6>
-                    <p
-                      className="m-landing-section6-grid-item-link"
-                      
-                    >
-                      youtube.com/reuters
-                    </p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.youtube.com/watch?v=H2fjAOY8ch8"
+                >
+                  <div className="m-landing-section6-grid-item">
+                    <img
+                      className="m-landing-section6-grid-item-img"
+                      src={blog3}
+                      alt=""
+                    />
+                    <div>
+                      <h6 className="m-landing-section6-grid-item-ttl">
+                        Medsaf Reuters Interview
+                      </h6>
+                      <p className="m-landing-section6-grid-item-link">
+                        youtube.com/reuters
+                      </p>
+                    </div>
                   </div>
-                </div>
                 </a>
               </div>
               <div className="m-landing-section6-grid-2">
-              <a href="https://www.youtube.com/watch?v=Fblb9F8ql4Q">
-                <div className="m-landing-section6-grid-item">
-                  <img
-                    className="m-landing-section6-grid-item-img"
-                    src={blog2}
-                  />
-                  <div>
-                    <h6 className="m-landing-section6-grid-item-ttl">
-                      BBC - Solving The Problem of Fake Drugs in Nigeria
-                    </h6>
-                    <p
-                      className="m-landing-section6-grid-item-link"
-                      
-                    >
-                      youtube.com/bbc
-                    </p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.youtube.com/watch?v=Fblb9F8ql4Q"
+                >
+                  <div className="m-landing-section6-grid-item">
+                    <img
+                      className="m-landing-section6-grid-item-img"
+                      src={blog2}
+                      alt=""
+                    />
+                    <div>
+                      <h6 className="m-landing-section6-grid-item-ttl">
+                        BBC - Solving The Problem of Fake Drugs in Nigeria
+                      </h6>
+                      <p className="m-landing-section6-grid-item-link">
+                        youtube.com/bbc
+                      </p>
+                    </div>
                   </div>
-                </div>
                 </a>
               </div>
               <div className="m-landing-section6-grid-3">
-                <a href="https://www.france24.com/en/20200115-africa-struggles-to-stem-deadly-flood-of-fake-medicine">
-                <div className="m-landing-section6-grid-item">
-                  <img
-                    className="m-landing-section6-grid-item-img"
-                    src={blog}
-                  />
-                  <div>
-                    <h6 className="m-landing-section6-grid-item-ttl">
-                      Africa Struggles to Stem Deadly Flood of Fake Medicine
-                    </h6>
-                    <p
-                      className="m-landing-section6-grid-item-link"
-                      
-                    >
-                      france24.com
-                    </p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.france24.com/en/20200115-africa-struggles-to-stem-deadly-flood-of-fake-medicine"
+                >
+                  <div className="m-landing-section6-grid-item">
+                    <img
+                      className="m-landing-section6-grid-item-img"
+                      src={blog}
+                      alt=""
+                    />
+                    <div>
+                      <h6 className="m-landing-section6-grid-item-ttl">
+                        Africa Struggles to Stem Deadly Flood of Fake Medicine
+                      </h6>
+                      <p className="m-landing-section6-grid-item-link">
+                        france24.com
+                      </p>
+                    </div>
                   </div>
-                </div>
                 </a>
               </div>
               <div className="m-landing-section6-grid-4">
-                <a  href="https://womenafrica.com/five-nigerian-women-are-on-list-of-forbes-woman-africas-new-wealth-creators/">
-                <div className="m-landing-section6-grid-item">
-                  <img
-                    className="m-landing-section6-grid-item-img"
-                    src={blog4}
-                  />
-                  <div>
-                    <h6 className="m-landing-section6-grid-item-ttl">
-                      Forbes - Africa's New Wealth Creator
-                    </h6>
-                    <p
-                      className="m-landing-section6-grid-item-link"
-                     
-                    >
-                      womenafrica.com
-                    </p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://womenafrica.com/five-nigerian-women-are-on-list-of-forbes-woman-africas-new-wealth-creators/"
+                >
+                  <div className="m-landing-section6-grid-item">
+                    <img
+                      className="m-landing-section6-grid-item-img"
+                      src={blog4}
+                      alt=""
+                    />
+                    <div>
+                      <h6 className="m-landing-section6-grid-item-ttl">
+                        Forbes - Africa's New Wealth Creator
+                      </h6>
+                      <p className="m-landing-section6-grid-item-link">
+                        womenafrica.com
+                      </p>
+                    </div>
                   </div>
-                </div>
                 </a>
               </div>
             </div>
           </div>
         </div>
-
-        {/* Financial Times Medsaf Interview - https://www.ft.com/content/ea9cbd66-c8c3-11e9-af46-b09e8bfe60c0 */}
-
         <div className="m-landing-section7 appContainer">
           <div className="m-landing-section7-sec">
             <h6 className="m-landing-section7-sec-ttl">
               Your one stop shop for the highest quality medications and
               consumables
             </h6>
-            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://shop.medsaf.com/web/login?redirect=/shop"
+            >
               <button className="m-landing-hero-btn m-landing-section7-btn">
                 {" "}
                 <img src={cartGreen} alt="shopping cart" />
@@ -408,8 +470,9 @@ const Home = () => {
             <img
               className="m-landing-section7-sec-img1"
               src={logoTransparent}
+              alt="transparent medsaf logo"
             />
-            <img className="m-landing-section7-sec-img2" src={ellipse} />
+            <img className="m-landing-section7-sec-img2" src={ellipse} alt="" />
           </div>
         </div>
       </div>

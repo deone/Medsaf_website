@@ -10,7 +10,7 @@ import youtube from "../../../assets/icons/youtubeWhite.svg";
 import close from "../../../assets/icons/burgerMenuClose.svg";
 
 const NavBar = (props: any) => {
-    let history = useHistory();
+  let history = useHistory();
   const [nav, setNav] = React.useState(false);
   const uniqueKeygen = (): number => {
     return Math.floor(Math.random() * 100);
@@ -19,7 +19,9 @@ const NavBar = (props: any) => {
     <>
       <div className="m-nav">
         <div className="m-nav-desktop appContainer">
-          <Link to="/"><img className="m-nav-logo" src={logo} alt="medsaf logo" /></Link>
+          <Link to="/">
+            <img className="m-nav-logo" src={logo} alt="medsaf logo" />
+          </Link>
           <nav className="m-nav-list">
             <div
               className={
@@ -33,21 +35,34 @@ const NavBar = (props: any) => {
               Home
             </div>
             <a href="/#offerings">
-            <div
-              className={
-                props.offerings
-                  ? "m-nav-link m-nav-link-pry m-nav-link-active"
-                  : "m-nav-link m-nav-link-grey"
-              }
-              role="button"
-            >
-              What we offer
-            </div></a>
+              <div
+                className={
+                  props.offerings
+                    ? "m-nav-link m-nav-link-pry m-nav-link-active"
+                    : "m-nav-link m-nav-link-grey"
+                }
+                role="button"
+              >
+                What we offer
+              </div>
+            </a>
             <div className="m-nav-dvd"></div>
-            <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><div className="m-nav-link m-nav-link-pry" role="button">
-              Login
-            </div></a>
-            <a target="_blank" href="https://shop.medsaf.com/web/signup?redirect=%2Fshop"><button className="m-nav-btn">Sign up</button></a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://shop.medsaf.com/web/login?redirect=/shop"
+            >
+              <div className="m-nav-link m-nav-link-pry" role="button">
+                Login
+              </div>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://shop.medsaf.com/web/signup?redirect=%2Fshop"
+            >
+              <button className="m-nav-btn">Sign up</button>
+            </a>
           </nav>
         </div>
         <div className="m-nav-mobile appContainer">
@@ -96,19 +111,69 @@ const NavBar = (props: any) => {
               </div>,
             ]}
             items={[
-              <Link className={props.home ? "m-nav-link-white m-nav-link-active" : "m-nav-link-white"} to="/">
+              <Link
+                className={
+                  props.home
+                    ? "m-nav-link-white m-nav-link-active"
+                    : "m-nav-link-white"
+                }
+                to="/"
+              >
                 Home
               </Link>,
-              <a className={props.offerings ? "m-nav-link-white m-nav-link-active" : "m-nav-link-white"} href="/#offerings">
+              <a
+                className={
+                  props.offerings
+                    ? "m-nav-link-white m-nav-link-active"
+                    : "m-nav-link-white"
+                }
+                href="/#offerings"
+              >
                 What we offer
               </a>,
-              <a target="_blank" href="https://shop.medsaf.com/web/login?redirect=/shop"><button className="m-nav-btn m-nav-btn1">Login</button></a>,
-              <a target="_blank" href="https://shop.medsaf.com/web/signup?redirect=%2Fshop"><button className="m-nav-btn">Sign up</button></a>,
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://shop.medsaf.com/web/login?redirect=/shop"
+              >
+                <button className="m-nav-btn m-nav-btn1">Login</button>
+              </a>,
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://shop.medsaf.com/web/signup?redirect=%2Fshop"
+              >
+                <button className="m-nav-btn">Sign up</button>
+              </a>,
               <div className="m-nav-socials">
-               <a target="_blank" href="https://instagram.com/medsafcom"><img src={instagram} alt="instagram" /></a>
-              <a target="_blank" href="https://twitter.com/MedsafCom"><img src={twitter} alt="twitter" /></a>
-                <a target="_blank" href="https://facebook.com/medsafcom"><img src={facebook} alt="facebook" /></a>
-                <a target="_blank" href="https://m.youtube.com/channel/UC_wYayI3FtdkXOJsdsM-T5g"><img src={youtube} alt="youtube" /></a>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://instagram.com/medsafcom"
+                >
+                  <img src={instagram} alt="instagram" />
+                </a>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://twitter.com/MedsafCom"
+                >
+                  <img src={twitter} alt="twitter" />
+                </a>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://facebook.com/medsafcom"
+                >
+                  <img src={facebook} alt="facebook" />
+                </a>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://m.youtube.com/channel/UC_wYayI3FtdkXOJsdsM-T5g"
+                >
+                  <img src={youtube} alt="youtube" />
+                </a>
               </div>,
             ]}
           />
