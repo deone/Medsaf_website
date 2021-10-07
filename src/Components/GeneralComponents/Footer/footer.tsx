@@ -15,6 +15,7 @@ const Footer = () => {
   let date = new Date().getFullYear();
   return (
     <>
+    <footer className="footer-bg" >
       <div className="appContainer m-footer">
         <div className="m-footer-grid">
           <div className="m-footer-grid-1">
@@ -116,7 +117,7 @@ const Footer = () => {
         <hr />
         <small>© MEDSAF {date}, All Rights Reserved</small>
       </div>
-    </>
+      </footer></>
   );
 };
 

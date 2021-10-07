@@ -278,7 +278,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        {/* </div> */}
+        <div  className="m-landing-section4bg">
         <div className="m-landing-section4 appContainer">
           <img alt="" className="m-landing-section4-img" src={whyMedsaf} />
           <img
@@ -311,7 +311,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        {/* <div className="m-landing"> */}
+        </div>
 
         <div className="m-landing-section5 appContainer">
           <div className="m-landing-section5-itemsec">

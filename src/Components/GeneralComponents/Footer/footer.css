@@ -1,5 +1,7 @@
-.m-footer{
+.footer-bg {
     background: #051024;
+}
+.m-footer{
     padding-top: 7rem;
     padding-bottom: 1rem;
 }

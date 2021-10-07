@@ -55,8 +55,17 @@ button, input, textarea, select {
 }
 
 .appContainer {
-  padding-left: 4% !important;
-  padding-right: 4% !important;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  max-width: 1050px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .appContainer {
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+  }
 }
 
 html a {
